@@ -1,0 +1,1197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC1_DR_Address	ST_Code/adc.h	16;"	d
+ANGLEPAUSE	ST_Code/pointer.c	28;"	d	file:
+APP_MENU	ST_Code/circle.h	347;"	d
+APP_MENU	ST_Code/circle_api.h	514;"	d
+APP_VOID	ST_Code/circle.h	342;"	d
+Application_Pointer_Mgr	ST_Code/circle.h	/^void  (*Application_Pointer_Mgr) ( int sposX, int sposY);$/;"	v
+AsciiDotsTable	ST_Code/lcd.c	/^static const u8 AsciiDotsTable[95 * 14 ] = {$/;"	v	file:
+BACKLIGHTMIN	ST_Code/circle.h	267;"	d
+BACKLIGHTMIN	ST_Code/circle_api.h	373;"	d
+BACKLIGHT_DIVIDER	ST_Code/lcd.c	23;"	d	file:
+BGndColor	ST_Code/draw.c	/^static u16 BGndColor;            \/*!< Current background color.               *\/$/;"	v	file:
+BITMAP_H	bitmap.h	69;"	d
+BKP_BKLIGHT	ST_Code/circle.h	426;"	d
+BKP_PLL	ST_Code/circle.h	425;"	d
+BKP_SYS1	ST_Code/circle.h	414;"	d
+BKP_SYS1	ST_Code/circle_api.h	650;"	d
+BKP_SYS2	ST_Code/circle.h	415;"	d
+BKP_SYS2	ST_Code/circle_api.h	651;"	d
+BKP_SYS3	ST_Code/circle.h	416;"	d
+BKP_SYS3	ST_Code/circle_api.h	652;"	d
+BKP_SYS4	ST_Code/circle.h	417;"	d
+BKP_SYS4	ST_Code/circle_api.h	653;"	d
+BKP_SYS5	ST_Code/circle.h	418;"	d
+BKP_SYS5	ST_Code/circle_api.h	654;"	d
+BKP_SYS6	ST_Code/circle.h	419;"	d
+BKP_SYS6	ST_Code/circle_api.h	655;"	d
+BKP_USER1	ST_Code/circle.h	420;"	d
+BKP_USER1	ST_Code/circle_api.h	657;"	d
+BKP_USER2	ST_Code/circle.h	421;"	d
+BKP_USER2	ST_Code/circle_api.h	658;"	d
+BKP_USER3	ST_Code/circle.h	422;"	d
+BKP_USER3	ST_Code/circle_api.h	659;"	d
+BKP_USER4	ST_Code/circle.h	423;"	d
+BKP_USER4	ST_Code/circle_api.h	660;"	d
+BUTTON_CLICK	ST_Code/circle.h	/^                     BUTTON_PUSHED_FORMAIN = 2 , BUTTON_CLICK = 3, BUTTON_DBLCLICK = 4 };$/;"	e	enum:BUTTON_state
+BUTTON_CLICK	ST_Code/circle_api.h	/^   BUTTON_CLICK            =  3,    \/*!< Currently unused.                    *\/$/;"	e	enum:BUTTON_state
+BUTTON_DBLCLICK	ST_Code/circle.h	/^                     BUTTON_PUSHED_FORMAIN = 2 , BUTTON_CLICK = 3, BUTTON_DBLCLICK = 4 };$/;"	e	enum:BUTTON_state
+BUTTON_DBLCLICK	ST_Code/circle_api.h	/^   BUTTON_DBLCLICK         =  4     \/*!< Currently unused.                    *\/$/;"	e	enum:BUTTON_state
+BUTTON_DISABLED	ST_Code/circle.h	/^enum BUTTON_mode  { BUTTON_DISABLED  = -1, BUTTON_ONOFF    = 0,$/;"	e	enum:BUTTON_mode
+BUTTON_DISABLED	ST_Code/circle_api.h	/^   BUTTON_DISABLED      = -1,       \/*!< No action on the button is detected. *\/$/;"	e	enum:BUTTON_mode
+BUTTON_GETMODE_ID	ST_Code/circle_api.h	341;"	d
+BUTTON_GETSTATE_ID	ST_Code/circle_api.h	339;"	d
+BUTTON_GetMode	ST_Code/circle_api.h	347;"	d
+BUTTON_GetState	ST_Code/circle_api.h	345;"	d
+BUTTON_ID	ST_Code/circle_api.h	94;"	d
+BUTTON_ONOFF	ST_Code/circle.h	/^enum BUTTON_mode  { BUTTON_DISABLED  = -1, BUTTON_ONOFF    = 0,$/;"	e	enum:BUTTON_mode
+BUTTON_ONOFF	ST_Code/circle_api.h	/^   BUTTON_ONOFF         =  0,       \/*!< Detect ON\/OFF pression type.         *\/$/;"	e	enum:BUTTON_mode
+BUTTON_ONOFF_FORMAIN	ST_Code/circle.h	/^                     BUTTON_ONOFF_FORMAIN = 1, BUTTON_WITHCLICK  = 2 };$/;"	e	enum:BUTTON_mode
+BUTTON_ONOFF_FORMAIN	ST_Code/circle_api.h	/^   BUTTON_ONOFF_FORMAIN =  1,       \/*!< Special mode for main screen.        *\/$/;"	e	enum:BUTTON_mode
+BUTTON_PUSHED	ST_Code/circle.h	/^enum BUTTON_state { BUTTON_UNDEF = -1, BUTTON_RELEASED = 0, BUTTON_PUSHED = 1,$/;"	e	enum:BUTTON_state
+BUTTON_PUSHED	ST_Code/circle_api.h	/^   BUTTON_PUSHED           =  1,    \/*!< Button was just pushed.              *\/$/;"	e	enum:BUTTON_state
+BUTTON_PUSHED_FORMAIN	ST_Code/circle.h	/^                     BUTTON_PUSHED_FORMAIN = 2 , BUTTON_CLICK = 3, BUTTON_DBLCLICK = 4 };$/;"	e	enum:BUTTON_state
+BUTTON_PUSHED_FORMAIN	ST_Code/circle_api.h	/^   BUTTON_PUSHED_FORMAIN   =  2,    \/*!< Same as BUTTON_PUSHED when button mode is BUTTON_ONOFF_FORMAIN. *\/$/;"	e	enum:BUTTON_state
+BUTTON_RELEASED	ST_Code/circle.h	/^enum BUTTON_state { BUTTON_UNDEF = -1, BUTTON_RELEASED = 0, BUTTON_PUSHED = 1,$/;"	e	enum:BUTTON_state
+BUTTON_RELEASED	ST_Code/circle_api.h	/^   BUTTON_RELEASED         =  0,    \/*!< Button is released.                  *\/$/;"	e	enum:BUTTON_state
+BUTTON_SCHHDL_ID	ST_Code/circle.h	/^   BUTTON_SCHHDL_ID  = 1,$/;"	e	enum:eSchHandler
+BUTTON_SCHHDL_ID	ST_Code/circle_api.h	/^   BUTTON_SCHHDL_ID  = 1,$/;"	e	enum:eSchHandler
+BUTTON_SETMODE_ID	ST_Code/circle_api.h	340;"	d
+BUTTON_SetMode	ST_Code/circle_api.h	346;"	d
+BUTTON_UNDEF	ST_Code/circle.h	/^enum BUTTON_state { BUTTON_UNDEF = -1, BUTTON_RELEASED = 0, BUTTON_PUSHED = 1,$/;"	e	enum:BUTTON_state
+BUTTON_UNDEF	ST_Code/circle_api.h	/^   BUTTON_UNDEF            = -1,    \/*!< Undefined state.                     *\/$/;"	e	enum:BUTTON_state
+BUTTON_WAITFORRELEASE_ID	ST_Code/circle_api.h	342;"	d
+BUTTON_WITHCLICK	ST_Code/circle.h	/^                     BUTTON_ONOFF_FORMAIN = 1, BUTTON_WITHCLICK  = 2 };$/;"	e	enum:BUTTON_mode
+BUTTON_WITHCLICK	ST_Code/circle_api.h	/^   BUTTON_WITHCLICK     =  2        \/*!< Currently unused.                    *\/$/;"	e	enum:BUTTON_mode
+BUTTON_WaitForRelease	ST_Code/circle_api.h	348;"	d
+BUTTON_mode	ST_Code/circle.h	/^enum BUTTON_mode  { BUTTON_DISABLED  = -1, BUTTON_ONOFF    = 0,$/;"	g
+BUTTON_mode	ST_Code/circle_api.h	/^enum BUTTON_mode$/;"	g
+BUTTON_state	ST_Code/circle.h	/^enum BUTTON_state { BUTTON_UNDEF = -1, BUTTON_RELEASED = 0, BUTTON_PUSHED = 1,$/;"	g
+BUTTON_state	ST_Code/circle_api.h	/^enum BUTTON_state$/;"	g
+BUZZER_BEEP	ST_Code/circle.h	325;"	d
+BUZZER_BEEP	ST_Code/circle_api.h	496;"	d
+BUZZER_GETMODE_ID	ST_Code/circle_api.h	500;"	d
+BUZZER_GetMode	ST_Code/buzzer.c	/^enum BUZZER_mode BUZZER_GetMode( void )$/;"	f
+BUZZER_GetMode	ST_Code/circle_api.h	505;"	d
+BUZZER_Handler	ST_Code/buzzer.c	/^void BUZZER_Handler( void )$/;"	f
+BUZZER_ID	ST_Code/circle_api.h	95;"	d
+BUZZER_Init	ST_Code/buzzer.c	/^void BUZZER_Init( void )$/;"	f
+BUZZER_LONGBEEP	ST_Code/circle.h	/^                        BUZZER_SHORTBEEP  = 2, BUZZER_LONGBEEP  = 3, BUZZER_PLAYMUSIC = 4 };$/;"	e	enum:BUZZER_mode
+BUZZER_LONGBEEP	ST_Code/circle_api.h	/^   BUZZER_LONGBEEP   =  3,         \/*!<  Make buzzer to bip for a long time   *\/$/;"	e	enum:BUZZER_mode
+BUZZER_LONGBEEP_DURATION	ST_Code/buzzer.c	47;"	d	file:
+BUZZER_OFF	ST_Code/circle.h	/^enum  BUZZER_mode  { BUZZER_UNDEF  = -1, BUZZER_OFF    = 0, BUZZER_ON    = 1,$/;"	e	enum:BUZZER_mode
+BUZZER_OFF	ST_Code/circle_api.h	/^   BUZZER_OFF        =  0,         \/*!<  The buzzer is put off.               *\/$/;"	e	enum:BUZZER_mode
+BUZZER_ON	ST_Code/circle.h	/^enum  BUZZER_mode  { BUZZER_UNDEF  = -1, BUZZER_OFF    = 0, BUZZER_ON    = 1,$/;"	e	enum:BUZZER_mode
+BUZZER_ON	ST_Code/circle_api.h	/^   BUZZER_ON         =  1,         \/*!<  The buzzer is put on.                *\/$/;"	e	enum:BUZZER_mode
+BUZZER_PLAYMUSIC	ST_Code/circle.h	/^                        BUZZER_SHORTBEEP  = 2, BUZZER_LONGBEEP  = 3, BUZZER_PLAYMUSIC = 4 };$/;"	e	enum:BUZZER_mode
+BUZZER_PLAYMUSIC	ST_Code/circle_api.h	/^   BUZZER_PLAYMUSIC  =  4          \/*!<  Make buzzer to play a music          *\/$/;"	e	enum:BUZZER_mode
+BUZZER_PLAY_MUSIC_ID	ST_Code/circle_api.h	501;"	d
+BUZZER_PlayMusic	ST_Code/buzzer.c	/^void BUZZER_PlayMusic (const u8 *melody )$/;"	f
+BUZZER_PlayMusic	ST_Code/circle_api.h	506;"	d
+BUZZER_SCHHDL_ID	ST_Code/circle.h	/^   BUZZER_SCHHDL_ID  = 2,$/;"	e	enum:eSchHandler
+BUZZER_SCHHDL_ID	ST_Code/circle_api.h	/^   BUZZER_SCHHDL_ID  = 2,$/;"	e	enum:eSchHandler
+BUZZER_SETMODE_ID	ST_Code/circle_api.h	499;"	d
+BUZZER_SHORTBEEP	ST_Code/circle.h	/^                        BUZZER_SHORTBEEP  = 2, BUZZER_LONGBEEP  = 3, BUZZER_PLAYMUSIC = 4 };$/;"	e	enum:BUZZER_mode
+BUZZER_SHORTBEEP	ST_Code/circle_api.h	/^   BUZZER_SHORTBEEP  =  2,         \/*!<  Make buzzer to bip for a short time  *\/$/;"	e	enum:BUZZER_mode
+BUZZER_SHORTBEEP_DURATION	ST_Code/buzzer.c	46;"	d	file:
+BUZZER_SetFrequency	ST_Code/buzzer.c	/^void BUZZER_SetFrequency ( u16 freq )$/;"	f
+BUZZER_SetMode	ST_Code/buzzer.c	/^void BUZZER_SetMode( enum BUZZER_mode mode )$/;"	f
+BUZZER_SetMode	ST_Code/circle_api.h	504;"	d
+BUZZER_UNDEF	ST_Code/circle.h	/^enum  BUZZER_mode  { BUZZER_UNDEF  = -1, BUZZER_OFF    = 0, BUZZER_ON    = 1,$/;"	e	enum:BUZZER_mode
+BUZZER_UNDEF	ST_Code/circle_api.h	/^   BUZZER_UNDEF      = -1,         \/*!<  undefined mode for buzzer            *\/$/;"	e	enum:BUZZER_mode
+BUZZER_mode	ST_Code/circle.h	/^enum  BUZZER_mode  { BUZZER_UNDEF  = -1, BUZZER_OFF    = 0, BUZZER_ON    = 1,$/;"	g
+BUZZER_mode	ST_Code/circle_api.h	/^enum BUZZER_mode$/;"	g
+BallPointerBmp	ST_Code/pointer.c	/^unsigned char        BallPointerBmp[ POINTER_WIDTH ]  = { 0x38, 0x7C, 0xFF, 0xFF, 0xFF, 0x7C, 0x38 } ;$/;"	v
+BatState	ST_Code/draw.c	/^u16 BatState;$/;"	v
+BusFaultException	ST_Code/stm32f10x_circle_it.c	/^void BusFaultException( void ) {}$/;"	f
+Buzzer_Counter	ST_Code/buzzer.c	/^u32                              Buzzer_Counter       = 0;$/;"	v
+Buzzer_Mode	ST_Code/buzzer.c	/^enum BUZZER_mode                 Buzzer_Mode          = BUZZER_UNDEF;$/;"	v	typeref:enum:BUZZER_mode
+CCER_CC1P_Mask	ST_Code/stm32f10x_tim.c	65;"	d	file:
+CCER_CC2P_Mask	ST_Code/stm32f10x_tim.c	67;"	d	file:
+CCER_CC3P_Mask	ST_Code/stm32f10x_tim.c	68;"	d	file:
+CCER_CC4P_Mask	ST_Code/stm32f10x_tim.c	69;"	d	file:
+CCMR_CC13S_Mask	ST_Code/stm32f10x_tim.c	51;"	d	file:
+CCMR_CC24S_Mask	ST_Code/stm32f10x_tim.c	52;"	d	file:
+CCMR_IC13F_Mask	ST_Code/stm32f10x_tim.c	63;"	d	file:
+CCMR_IC13PSC_Mask	ST_Code/stm32f10x_tim.c	61;"	d	file:
+CCMR_IC24F_Mask	ST_Code/stm32f10x_tim.c	64;"	d	file:
+CCMR_IC24PSC_Mask	ST_Code/stm32f10x_tim.c	62;"	d	file:
+CCMR_OC13FE_Mask	ST_Code/stm32f10x_tim.c	55;"	d	file:
+CCMR_OC13PE_Mask	ST_Code/stm32f10x_tim.c	57;"	d	file:
+CCMR_OC24FE_Mask	ST_Code/stm32f10x_tim.c	56;"	d	file:
+CCMR_OC24PE_Mask	ST_Code/stm32f10x_tim.c	58;"	d	file:
+CCMR_OCM13_Mask	ST_Code/stm32f10x_tim.c	59;"	d	file:
+CCMR_OCM24_Mask	ST_Code/stm32f10x_tim.c	60;"	d	file:
+CCMR_TI13Direct_Set	ST_Code/stm32f10x_tim.c	53;"	d	file:
+CCMR_TI24Direct_Set	ST_Code/stm32f10x_tim.c	54;"	d	file:
+CCRE_CC1E_Mask	ST_Code/stm32f10x_tim.c	73;"	d	file:
+CCRE_CC1E_Reset	ST_Code/stm32f10x_tim.c	72;"	d	file:
+CCRE_CC1E_Set	ST_Code/stm32f10x_tim.c	71;"	d	file:
+CCRE_CC2E_Mask	ST_Code/stm32f10x_tim.c	77;"	d	file:
+CCRE_CC2E_Reset	ST_Code/stm32f10x_tim.c	76;"	d	file:
+CCRE_CC2E_Set	ST_Code/stm32f10x_tim.c	75;"	d	file:
+CCRE_CC3E_Reset	ST_Code/stm32f10x_tim.c	80;"	d	file:
+CCRE_CC3E_Set	ST_Code/stm32f10x_tim.c	79;"	d	file:
+CCRE_CC4E_Mask	ST_Code/stm32f10x_tim.c	84;"	d	file:
+CCRE_CC4E_Reset	ST_Code/stm32f10x_tim.c	83;"	d	file:
+CCRE_CC4E_Set	ST_Code/stm32f10x_tim.c	82;"	d	file:
+CCR_Val	ST_Code/buzzer.c	/^u16                              CCR_Val              = 0x2EE0;$/;"	v
+CHAR_HEIGHT	ST_Code/circle.h	264;"	d
+CHAR_HEIGHT	ST_Code/circle_api.h	384;"	d
+CHAR_WIDTH	ST_Code/circle.h	263;"	d
+CHAR_WIDTH	ST_Code/circle_api.h	383;"	d
+CHIP_SCREEN_HEIGHT	ST_Code/circle.h	260;"	d
+CHIP_SCREEN_HEIGHT	ST_Code/circle_api.h	380;"	d
+CHIP_SCREEN_WIDTH	ST_Code/circle.h	259;"	d
+CHIP_SCREEN_WIDTH	ST_Code/circle_api.h	379;"	d
+CIRCLEOS_RAM_BASE	ST_Code/circle.h	29;"	d
+CLOCKWISE_OUTPUT	ST_Code/lcd.h	60;"	d
+CR1_ARPE_Reset	ST_Code/stm32f10x_tim.c	36;"	d	file:
+CR1_ARPE_Set	ST_Code/stm32f10x_tim.c	35;"	d	file:
+CR1_CEN_Reset	ST_Code/stm32f10x_tim.c	28;"	d	file:
+CR1_CEN_Set	ST_Code/stm32f10x_tim.c	27;"	d	file:
+CR1_CKD_Mask	ST_Code/stm32f10x_tim.c	37;"	d	file:
+CR1_CounterMode_Mask	ST_Code/stm32f10x_tim.c	34;"	d	file:
+CR1_OPM_Mask	ST_Code/stm32f10x_tim.c	33;"	d	file:
+CR1_UDIS_Reset	ST_Code/stm32f10x_tim.c	30;"	d	file:
+CR1_UDIS_Set	ST_Code/stm32f10x_tim.c	29;"	d	file:
+CR1_URS_Reset	ST_Code/stm32f10x_tim.c	32;"	d	file:
+CR1_URS_Set	ST_Code/stm32f10x_tim.c	31;"	d	file:
+CR2_CCDS_Reset	ST_Code/stm32f10x_tim.c	40;"	d	file:
+CR2_CCDS_Set	ST_Code/stm32f10x_tim.c	39;"	d	file:
+CR2_MMS_Mask	ST_Code/stm32f10x_tim.c	41;"	d	file:
+CR2_TI1S_Reset	ST_Code/stm32f10x_tim.c	43;"	d	file:
+CR2_TI1S_Set	ST_Code/stm32f10x_tim.c	42;"	d	file:
+CharMagniCoeff	ST_Code/draw.c	/^static u16 CharMagniCoeff = 1;   \/*!< Current character magnify coefficient.  *\/$/;"	v	file:
+Circle_API	ST_Code/circle_api.h	87;"	d
+CtrlPin_CS	ST_Code/lcd.h	39;"	d
+CtrlPin_RD	ST_Code/lcd.h	32;"	d
+CtrlPin_RS	ST_Code/lcd.h	31;"	d
+CtrlPin_RST	ST_Code/lcd.h	34;"	d
+CtrlPin_WR	ST_Code/lcd.h	33;"	d
+CurrentAngleStart	ST_Code/pointer.c	/^u32                  CurrentAngleStart                = DEFAULT_ANGLESTART  ;$/;"	v
+CurrentMelody	ST_Code/buzzer.c	/^const u8*                        CurrentMelody        = 0;$/;"	v
+CurrentMelodySTART	ST_Code/buzzer.c	/^const u8*                        CurrentMelodySTART   = 0;$/;"	v
+CurrentPointerBmp	ST_Code/pointer.c	/^u8*                  CurrentPointerBmp                = 0;$/;"	v
+CurrentPointerColor	ST_Code/pointer.c	/^u16                  CurrentPointerColor              = POINTER_DEFAULT_COLOR;$/;"	v
+CurrentPointerHeight	ST_Code/pointer.c	/^u8                   CurrentPointerHeight             = 0;$/;"	v
+CurrentPointerWidth	ST_Code/pointer.c	/^u8                   CurrentPointerWidth              = 0;$/;"	v
+CurrentRotateScreen	ST_Code/draw.c	/^int                        CurrentRotateScreen        = 1;$/;"	v
+CurrentScreenOrientation	ST_Code/draw.c	/^Rotate_H12_V_Match_TypeDef CurrentScreenOrientation;$/;"	v
+CurrentSpeed	ST_Code/Util.c	/^enum eSpeed CurrentSpeed;$/;"	v	typeref:enum:eSpeed
+CurrentSpeedOnAngle	ST_Code/pointer.c	/^u16                  CurrentSpeedOnAngle              = DEFAULT_SPEED_ON_ANGLE;$/;"	v
+Current_CCR_BackLightStart	ST_Code/lcd.c	/^int                                 Current_CCR_BackLightStart = DEFAULT_CCR_BACKLIGHTSTART;$/;"	v
+DCR_DMA_Mask	ST_Code/stm32f10x_tim.c	86;"	d	file:
+DEFAULT_ANGLESTART	ST_Code/pointer.c	29;"	d	file:
+DEFAULT_CCR_BACKLIGHTSTART	ST_Code/circle.h	268;"	d
+DEFAULT_CCR_BACKLIGHTSTART	ST_Code/circle_api.h	374;"	d
+DEFAULT_SPEED_ON_ANGLE	ST_Code/pointer.c	34;"	d	file:
+DELAY_BETWEEN_TWO_SHOCK	ST_Code/mems.c	453;"	d	file:
+DELAY_REACT	ST_Code/mems.c	31;"	d	file:
+DISPLAY_OFF	ST_Code/lcd.h	57;"	d
+DISPLAY_ON	ST_Code/lcd.h	56;"	d
+DIV_REACT	ST_Code/mems.c	33;"	d	file:
+DRAW_CLEAR_ID	ST_Code/circle_api.h	438;"	d
+DRAW_Clear	ST_Code/circle_api.h	456;"	d
+DRAW_DISPLAYSTRINGINVERTED_ID	ST_Code/circle_api.h	445;"	d
+DRAW_DISPLAYSTRING_ID	ST_Code/circle_api.h	444;"	d
+DRAW_DISPLAYTIME_ID	ST_Code/circle_api.h	443;"	d
+DRAW_DISPLAYVBAT_ID	ST_Code/circle_api.h	442;"	d
+DRAW_DisplayString	ST_Code/circle_api.h	462;"	d
+DRAW_DisplayString	ST_Code/draw.c	/^void DRAW_DisplayString( u8 x, u8 y, const u8* ptr, u8 len )$/;"	f
+DRAW_DisplayStringInverted	ST_Code/circle_api.h	463;"	d
+DRAW_DisplayStringInverted	ST_Code/draw.c	/^void DRAW_DisplayStringInverted( u8 x, u8 y, const u8* ptr, u8 len )$/;"	f
+DRAW_DisplayStringWithMode	ST_Code/draw.c	/^static void DRAW_DisplayStringWithMode( u8 x, u8 y, const u8* ptr, u8 len, int mode )$/;"	f	file:
+DRAW_DisplayTemp	ST_Code/draw.c	/^void DRAW_DisplayTemp( u8 x, u8 y )$/;"	f
+DRAW_DisplayTime	ST_Code/circle_api.h	461;"	d
+DRAW_DisplayVbat	ST_Code/circle_api.h	460;"	d
+DRAW_GETBGNDCOLOR_ID	ST_Code/circle_api.h	450;"	d
+DRAW_GETCHARMAGNICOEFF_ID	ST_Code/circle_api.h	446;"	d
+DRAW_GETTEXTCOLOR_ID	ST_Code/circle_api.h	448;"	d
+DRAW_GetBGndColor	ST_Code/circle_api.h	468;"	d
+DRAW_GetBGndColor	ST_Code/draw.c	/^u16 DRAW_GetBGndColor( void )$/;"	f
+DRAW_GetCharMagniCoeff	ST_Code/circle_api.h	464;"	d
+DRAW_GetCharMagniCoeff	ST_Code/draw.c	/^u16 DRAW_GetCharMagniCoeff( void )$/;"	f
+DRAW_GetTextColor	ST_Code/circle_api.h	466;"	d
+DRAW_GetTextColor	ST_Code/draw.c	/^u16 DRAW_GetTextColor( void )$/;"	f
+DRAW_ID	ST_Code/circle_api.h	90;"	d
+DRAW_Init	ST_Code/draw.c	/^void DRAW_Init( void )$/;"	f
+DRAW_LINE_ID	ST_Code/circle_api.h	452;"	d
+DRAW_Line	ST_Code/circle_api.h	470;"	d
+DRAW_Line	ST_Code/draw.c	/^void DRAW_Line (s16 x1, s16 y1, s16 x2, s16 y2, u16 color )$/;"	f
+DRAW_SCHHDL_ID	ST_Code/circle.h	/^   DRAW_SCHHDL_ID    = 6,$/;"	e	enum:eSchHandler
+DRAW_SCHHDL_ID	ST_Code/circle_api.h	/^   DRAW_SCHHDL_ID    = 6,$/;"	e	enum:eSchHandler
+DRAW_SETBGNDCOLOR_ID	ST_Code/circle_api.h	451;"	d
+DRAW_SETCHARMAGNICOEFF_ID	ST_Code/circle_api.h	447;"	d
+DRAW_SETDEFAULTCOLOR_ID	ST_Code/circle_api.h	437;"	d
+DRAW_SETIMAGEBW_ID	ST_Code/circle_api.h	440;"	d
+DRAW_SETIMAGE_ID	ST_Code/circle_api.h	439;"	d
+DRAW_SETLOGOBW_ID	ST_Code/circle_api.h	441;"	d
+DRAW_SETTEXTCOLOR_ID	ST_Code/circle_api.h	449;"	d
+DRAW_SetBGndColor	ST_Code/circle_api.h	469;"	d
+DRAW_SetBGndColor	ST_Code/draw.c	/^void DRAW_SetBGndColor(u16 Color)$/;"	f
+DRAW_SetCharMagniCoeff	ST_Code/circle_api.h	465;"	d
+DRAW_SetCharMagniCoeff	ST_Code/draw.c	/^void DRAW_SetCharMagniCoeff( u16 Coeff )$/;"	f
+DRAW_SetDefaultColor	ST_Code/circle_api.h	455;"	d
+DRAW_SetDefaultColor	ST_Code/draw.c	/^void DRAW_SetDefaultColor (void)$/;"	f
+DRAW_SetImage	ST_Code/circle_api.h	457;"	d
+DRAW_SetImage	ST_Code/draw.c	/^void DRAW_SetImage( const u16* imageptr, u8 x, u8 y, u8 width, u8 height )$/;"	f
+DRAW_SetImageBW	ST_Code/circle_api.h	458;"	d
+DRAW_SetLogoBW	ST_Code/circle_api.h	459;"	d
+DRAW_SetTextColor	ST_Code/circle_api.h	467;"	d
+DRAW_SetTextColor	ST_Code/draw.c	/^void DRAW_SetTextColor( u16 Color )$/;"	f
+DUMMY_BYTE	ST_Code/mems.c	27;"	d	file:
+DUTY_CYCLE	ST_Code/lcd.h	62;"	d
+DYNAMIC_DRIVE	ST_Code/lcd.h	61;"	d
+DataConfigMode_TypeDef	ST_Code/lcd.h	/^   } DataConfigMode_TypeDef;$/;"	t	typeref:enum:__anon11
+DebugMonitor	ST_Code/stm32f10x_circle_it.c	/^void DebugMonitor( void ) {}$/;"	f
+DefaultAreaStore	ST_Code/pointer.c	/^unsigned char        DefaultAreaStore[ 2 * POINTER_WIDTH * POINTER_WIDTH ];$/;"	v
+DefaultBeats	ST_Code/buzzer.c	/^u16                              DefaultBeats         = 63;$/;"	v
+DefaultDuration	ST_Code/buzzer.c	/^u8                               DefaultDuration      = 4;$/;"	v
+DefaultOctave	ST_Code/buzzer.c	/^u8                               DefaultOctave        = OCT_880;$/;"	v
+DoubleClick	ST_Code/circle.h	/^   s16 DoubleClick ;$/;"	m	struct:__anon2
+DoubleClick	ST_Code/circle_api.h	/^   s16 DoubleClick;              \/*!< MEMS DoubleClick counter(incremented...)*\/$/;"	m	struct:__anon7
+DummyHandler	ST_Code/stm32f10x_circle_it.c	/^void DummyHandler ( void ) {}$/;"	f
+ETR_Config	ST_Code/stm32f10x_tim.c	/^static void ETR_Config(TIM_TypeDef* TIMx, u16 TIM_ExtTRGPrescaler, u16 TIM_ExtTRGPolarity,$/;"	f	file:
+FA_TABLE	ST_Code/circle.h	27;"	d
+FREERTOS_CONFIG_H	FreeRTOSConfig.h	67;"	d
+Fct_Init	ST_Code/circle.h	/^   enum MENU_code (*Fct_Init)  ( void );$/;"	m	struct:__anon4	typeref:enum:__anon4::Fct_Init
+Fct_Init	ST_Code/circle_api.h	/^   enum MENU_code (*Fct_Init)  ( void );        \/*!<  First function launched if item is selected. *\/$/;"	m	struct:__anon9	typeref:enum:__anon9::Fct_Init
+Fct_Manage	ST_Code/circle.h	/^   enum MENU_code (*Fct_Manage)( void );$/;"	m	struct:__anon4	typeref:enum:__anon4::Fct_Manage
+Fct_Manage	ST_Code/circle_api.h	/^   enum MENU_code (*Fct_Manage)( void );        \/*!<  Second function launched after a "return MENU_CONTINU_COMMAND" in the first function   *\/$/;"	m	struct:__anon9	typeref:enum:__anon9::Fct_Manage
+GPIO_LCD_CS_PERIPH	ST_Code/lcd.h	41;"	d
+GPIO_LCD_CTRL_PERIPH	ST_Code/lcd.h	37;"	d
+GPIO_LCD_D_PERIPH	ST_Code/lcd.h	53;"	d
+GPIO_USB_PIN	ST_Code/Util.c	20;"	d	file:
+GPIOx_CS_LCD	ST_Code/lcd.h	40;"	d
+GPIOx_CTRL_LCD	ST_Code/lcd.h	36;"	d
+GPIOx_D_LCD	ST_Code/lcd.h	52;"	d
+GPIOx_USB	ST_Code/Util.c	21;"	d	file:
+GRAD_SHOCK	ST_Code/mems.c	34;"	d	file:
+GradX	ST_Code/mems.c	/^s16                                 GradX                            = 0;$/;"	v
+GradY	ST_Code/mems.c	/^s16                                 GradY                            = 0;$/;"	v
+GradZ	ST_Code/mems.c	/^s16                                 GradZ                            = 0;$/;"	v
+Gradient2	ST_Code/mems.c	/^u32                                 Gradient2;$/;"	v
+GreenLED_Counter	ST_Code/led.c	/^int            GreenLED_Counter  = 0;$/;"	v
+GreenLED_mode	ST_Code/led.c	/^enum LED_mode  GreenLED_mode     = LED_UNDEF;$/;"	v	typeref:enum:LED_mode
+GreenLED_newmode	ST_Code/led.c	/^enum LED_mode  GreenLED_newmode  = LED_OFF;$/;"	v	typeref:enum:LED_mode
+H12	ST_Code/draw.c	/^Rotate_H12_V_Match_TypeDef H12;$/;"	v
+HIGH	ST_Code/mems.c	26;"	d	file:
+HSE_Value	ST_Code/stm32f10x_conf.h	112;"	d
+HalfPeriod_HF	ST_Code/led.c	/^const int      HalfPeriod_HF     = 50;$/;"	v
+HalfPeriod_LF	ST_Code/led.c	/^const int      HalfPeriod_LF     = 200;$/;"	v
+HandlerDivider	ST_Code/lcd.c	/^static int                          HandlerDivider             = 0;$/;"	v	file:
+HardFaultException	ST_Code/stm32f10x_circle_it.c	/^void HardFaultException( void ) $/;"	f
+INCLUDE_uxTaskPriorityGet	FreeRTOSConfig.h	106;"	d
+INCLUDE_vTaskCleanUpResources	FreeRTOSConfig.h	108;"	d
+INCLUDE_vTaskDelay	FreeRTOSConfig.h	111;"	d
+INCLUDE_vTaskDelayUntil	FreeRTOSConfig.h	110;"	d
+INCLUDE_vTaskDelete	FreeRTOSConfig.h	107;"	d
+INCLUDE_vTaskPrioritySet	FreeRTOSConfig.h	105;"	d
+INCLUDE_vTaskSuspend	FreeRTOSConfig.h	109;"	d
+Input	ST_Code/lcd.h	/^   Input,$/;"	e	enum:__anon11
+Items	ST_Code/circle.h	/^   tMenuItem Items[MENU_MAXITEM];$/;"	m	struct:__anon5
+Items	ST_Code/circle_api.h	/^   tMenuItem Items[MENU_MAXITEM];         \/*!< Items of menu.  *\/$/;"	m	struct:__anon10
+LAST_SCHHDL	ST_Code/circle.h	82;"	d
+LCD_7637_Controller	ST_Code/lcd.c	/^static void LCD_7637_Controller( void )$/;"	f	file:
+LCD_BackLightChange	ST_Code/lcd.c	/^static void LCD_BackLightChange( void )$/;"	f	file:
+LCD_BackLightConfig	ST_Code/lcd.c	/^static void LCD_BackLightConfig( void )$/;"	f	file:
+LCD_CTRL_PINS	ST_Code/lcd.h	35;"	d
+LCD_CheckLCDStatus	ST_Code/lcd.c	/^static void LCD_CheckLCDStatus( void )$/;"	f	file:
+LCD_CtrlLinesConfig	ST_Code/lcd.c	/^static void LCD_CtrlLinesConfig( void )$/;"	f	file:
+LCD_CtrlLinesWrite	ST_Code/lcd.c	/^static void LCD_CtrlLinesWrite( GPIO_TypeDef* GPIOx, u32 CtrlPins, BitAction BitVal )$/;"	f	file:
+LCD_D0	ST_Code/lcd.h	43;"	d
+LCD_D1	ST_Code/lcd.h	44;"	d
+LCD_D2	ST_Code/lcd.h	45;"	d
+LCD_D3	ST_Code/lcd.h	46;"	d
+LCD_D4	ST_Code/lcd.h	47;"	d
+LCD_D5	ST_Code/lcd.h	48;"	d
+LCD_D6	ST_Code/lcd.h	49;"	d
+LCD_D7	ST_Code/lcd.h	50;"	d
+LCD_DATA_PINS	ST_Code/lcd.h	51;"	d
+LCD_DISPLAYCHAR_ID	ST_Code/circle_api.h	397;"	d
+LCD_DRAWPIXEL_ID	ST_Code/circle_api.h	391;"	d
+LCD_DRAWRECT_ID	ST_Code/circle_api.h	396;"	d
+LCD_DataLinesConfig	ST_Code/lcd.c	/^static void LCD_DataLinesConfig( DataConfigMode_TypeDef Mode )$/;"	f	file:
+LCD_DataLinesWrite	ST_Code/lcd.c	/^static void LCD_DataLinesWrite( GPIO_TypeDef* GPIOx, u32 PortVal )$/;"	f	file:
+LCD_DisplayChar	ST_Code/circle_api.h	417;"	d
+LCD_DisplayChar	ST_Code/lcd.c	/^void LCD_DisplayChar( u8 x, u8 y, u8 Ascii, u16 TextColor, u16 BGndColor, u16 CharMagniCoeff)$/;"	f
+LCD_DisplayRotate	ST_Code/lcd.c	/^static void LCD_DisplayRotate( Rotate_H12_V_Match_TypeDef H12 )$/;"	f	file:
+LCD_DrawChar	ST_Code/lcd.c	/^static void LCD_DrawChar( u8 x, u8 y, u8 width, const u8* bmp, u16 textColor, u16 bGndColor, u16 charMagniCoeff )$/;"	f	file:
+LCD_DrawPixel	ST_Code/circle_api.h	411;"	d
+LCD_DrawPixel	ST_Code/lcd.c	/^void LCD_DrawPixel( u8 XPos, u8 YPos, u16 Color )$/;"	f
+LCD_DrawRect	ST_Code/circle_api.h	416;"	d
+LCD_DrawRect	ST_Code/lcd.c	/^void LCD_DrawRect( u16 x, u16 y, u16 width, u16 height, u16 color )$/;"	f
+LCD_FILLRECT_ID	ST_Code/circle_api.h	395;"	d
+LCD_FillRect	ST_Code/circle_api.h	415;"	d
+LCD_FillRect	ST_Code/lcd.c	/^void LCD_FillRect( u16 x, u16 y, u16 width, u16 height, u16 color )$/;"	f
+LCD_GETBACKLIGHT_ID	ST_Code/circle_api.h	400;"	d
+LCD_GETPIXEL_ID	ST_Code/circle_api.h	390;"	d
+LCD_GETROTATESCREEN_ID	ST_Code/circle_api.h	402;"	d
+LCD_GETSCREENORIENTATION_ID	ST_Code/circle_api.h	404;"	d
+LCD_GetBackLight	ST_Code/circle_api.h	420;"	d
+LCD_GetBackLight	ST_Code/lcd.c	/^u32 LCD_GetBackLight( void )$/;"	f
+LCD_GetPixel	ST_Code/circle_api.h	410;"	d
+LCD_GetPixel	ST_Code/lcd.c	/^u16 LCD_GetPixel( u8 x, u8 y )$/;"	f
+LCD_GetRotateScreen	ST_Code/circle_api.h	422;"	d
+LCD_GetRotateScreen	ST_Code/lcd.c	/^u8 LCD_GetRotateScreen( void )$/;"	f
+LCD_GetScreenOrientation	ST_Code/circle_api.h	424;"	d
+LCD_GetScreenOrientation	ST_Code/lcd.c	/^Rotate_H12_V_Match_TypeDef LCD_GetScreenOrientation( void )$/;"	f
+LCD_Handler	ST_Code/lcd.c	/^void LCD_Handler( void )$/;"	f
+LCD_ID	ST_Code/circle_api.h	91;"	d
+LCD_Init	ST_Code/lcd.c	/^void LCD_Init( void )$/;"	f
+LCD_READLCDDATA_ID	ST_Code/circle_api.h	394;"	d
+LCD_RECTREAD_ID	ST_Code/circle_api.h	398;"	d
+LCD_ReadLCDData	ST_Code/circle_api.h	414;"	d
+LCD_ReadLCDData	ST_Code/lcd.c	/^u32 LCD_ReadLCDData( void )$/;"	f
+LCD_RectRead	ST_Code/circle_api.h	418;"	d
+LCD_RectRead	ST_Code/lcd.c	/^void LCD_RectRead( u16 x, u16 y, u16 width, u16 height, u8* bmp )$/;"	f
+LCD_SCHHDL_ID	ST_Code/circle.h	/^   LCD_SCHHDL_ID     = 5,$/;"	e	enum:eSchHandler
+LCD_SCHHDL_ID	ST_Code/circle_api.h	/^   LCD_SCHHDL_ID     = 5,$/;"	e	enum:eSchHandler
+LCD_SENDLCDCMD_ID	ST_Code/circle_api.h	392;"	d
+LCD_SENDLCDDATA_ID	ST_Code/circle_api.h	393;"	d
+LCD_SETBACKLIGHT_ID	ST_Code/circle_api.h	399;"	d
+LCD_SETBACKLIGHT_OFF_ID	ST_Code/circle_api.h	405;"	d
+LCD_SETBACKLIGHT_ON_ID	ST_Code/circle_api.h	406;"	d
+LCD_SETRECTFORCMD_ID	ST_Code/circle_api.h	389;"	d
+LCD_SETROTATESCREEN_ID	ST_Code/circle_api.h	401;"	d
+LCD_SETSCREENORIENTATION_ID	ST_Code/circle_api.h	403;"	d
+LCD_SendLCDCmd	ST_Code/circle_api.h	412;"	d
+LCD_SendLCDCmd	ST_Code/lcd.c	/^void LCD_SendLCDCmd( u8 Cmd )$/;"	f
+LCD_SendLCDData	ST_Code/circle_api.h	413;"	d
+LCD_SendLCDData	ST_Code/lcd.c	/^void LCD_SendLCDData( u8 Data )$/;"	f
+LCD_SetBackLight	ST_Code/circle_api.h	419;"	d
+LCD_SetBackLight	ST_Code/lcd.c	/^void LCD_SetBackLight( u32 newBacklightStart )$/;"	f
+LCD_SetBackLightOff	ST_Code/circle_api.h	425;"	d
+LCD_SetBackLightOff	ST_Code/lcd.c	/^void LCD_SetBackLightOff( void )$/;"	f
+LCD_SetBackLightOn	ST_Code/circle_api.h	426;"	d
+LCD_SetBackLightOn	ST_Code/lcd.c	/^void LCD_SetBackLightOn( void )$/;"	f
+LCD_SetRect_For_Cmd	ST_Code/circle_api.h	409;"	d
+LCD_SetRect_For_Cmd	ST_Code/lcd.c	/^void LCD_SetRect_For_Cmd( s16 x, s16 y, s16 width, s16 height )$/;"	f
+LCD_SetRotateScreen	ST_Code/circle_api.h	421;"	d
+LCD_SetRotateScreen	ST_Code/lcd.c	/^void LCD_SetRotateScreen( u8 RotateScreen)$/;"	f
+LCD_SetScreenOrientation	ST_Code/circle_api.h	423;"	d
+LCD_SetScreenOrientation	ST_Code/lcd.c	/^void LCD_SetScreenOrientation( Rotate_H12_V_Match_TypeDef ScreenOrientation )$/;"	f
+LED_BLINKING_HF	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	e	enum:LED_mode
+LED_BLINKING_HF	ST_Code/circle_api.h	/^   LED_BLINKING_HF = 3                       \/*!< Fast blinking led mode.     *\/$/;"	e	enum:LED_mode
+LED_BLINKING_LF	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	e	enum:LED_mode
+LED_BLINKING_LF	ST_Code/circle_api.h	/^   LED_BLINKING_LF = 2,                      \/*!< Slow blinking led mode.     *\/$/;"	e	enum:LED_mode
+LED_GREEN	ST_Code/circle.h	/^enum LED_id { LED_GREEN = 0, LED_RED = 1};$/;"	e	enum:LED_id
+LED_GREEN	ST_Code/circle_api.h	/^   LED_GREEN = 0,                                        \/*!< Green led id.   *\/$/;"	e	enum:LED_id
+LED_Handler	ST_Code/led.c	/^void LED_Handler( void )$/;"	f
+LED_Handler_hw	ST_Code/led.c	/^void LED_Handler_hw( enum LED_id id )$/;"	f
+LED_ID	ST_Code/circle_api.h	92;"	d
+LED_Init	ST_Code/led.c	/^void LED_Init( void )$/;"	f
+LED_OFF	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	e	enum:LED_mode
+LED_OFF	ST_Code/circle_api.h	/^   LED_OFF         = 0,                      \/*!< Put off the led.            *\/$/;"	e	enum:LED_mode
+LED_ON	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	e	enum:LED_mode
+LED_ON	ST_Code/circle_api.h	/^   LED_ON          = 1,                      \/*!< Put on the led.             *\/$/;"	e	enum:LED_mode
+LED_RED	ST_Code/circle.h	/^enum LED_id { LED_GREEN = 0, LED_RED = 1};$/;"	e	enum:LED_id
+LED_RED	ST_Code/circle_api.h	/^   LED_RED = 1                                           \/*!< Red led id.     *\/$/;"	e	enum:LED_id
+LED_SCHHDL_ID	ST_Code/circle.h	/^   LED_SCHHDL_ID     = 0,$/;"	e	enum:eSchHandler
+LED_SCHHDL_ID	ST_Code/circle_api.h	/^   LED_SCHHDL_ID     = 0,$/;"	e	enum:eSchHandler
+LED_SET_ID	ST_Code/circle_api.h	638;"	d
+LED_Set	ST_Code/circle_api.h	641;"	d
+LED_Set	ST_Code/led.c	/^void LED_Set( enum LED_id id, enum LED_mode mode )$/;"	f
+LED_UNDEF	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	e	enum:LED_mode
+LED_UNDEF	ST_Code/circle_api.h	/^   LED_UNDEF       = -1,                     \/*!< Undefined led mode.         *\/$/;"	e	enum:LED_mode
+LED_id	ST_Code/circle.h	/^enum LED_id { LED_GREEN = 0, LED_RED = 1};$/;"	g
+LED_id	ST_Code/circle_api.h	/^enum LED_id$/;"	g
+LED_mode	ST_Code/circle.h	/^enum LED_mode { LED_UNDEF = -1, LED_OFF = 0, LED_ON = 1, LED_BLINKING_LF = 2, LED_BLINKING_HF = 3 };$/;"	g
+LED_mode	ST_Code/circle_api.h	/^enum LED_mode$/;"	g
+LOW	ST_Code/mems.c	25;"	d	file:
+LgMax	ST_Code/circle.h	/^   int LgMax;$/;"	m	struct:__anon5
+LgMax	ST_Code/circle_api.h	/^   int LgMax;                             \/*!< Unused.                        *\/$/;"	m	struct:__anon10
+MARGIN	ST_Code/mems.c	30;"	d	file:
+MAXAPP	ST_Code/circle.h	344;"	d
+MAX_APP_MENU_SIZE	ST_Code/circle.h	343;"	d
+MAX_DELAY_FOR_DOUBLECLICK	ST_Code/mems.c	454;"	d	file:
+MAX_MENUAPP_SIZE	ST_Code/circle.h	345;"	d
+MEMS_ChipSelect	ST_Code/mems.c	/^static void MEMS_ChipSelect( u8 State )$/;"	f	file:
+MEMS_DIVIDER	ST_Code/mems.c	28;"	d	file:
+MEMS_GET_INFO_ID	ST_Code/circle_api.h	190;"	d
+MEMS_GET_POSITION_ID	ST_Code/circle_api.h	187;"	d
+MEMS_GET_ROTATION_ID	ST_Code/circle_api.h	188;"	d
+MEMS_GetInfo	ST_Code/circle_api.h	196;"	d
+MEMS_GetInfo	ST_Code/mems.c	/^tMEMS_Info* MEMS_GetInfo( void )$/;"	f
+MEMS_GetPosition	ST_Code/circle_api.h	193;"	d
+MEMS_GetPosition	ST_Code/mems.c	/^void MEMS_GetPosition( s16* pX, s16* pY )$/;"	f
+MEMS_GetRotation	ST_Code/circle_api.h	194;"	d
+MEMS_GetRotation	ST_Code/mems.c	/^void MEMS_GetRotation( Rotate_H12_V_Match_TypeDef* pH12 )$/;"	f
+MEMS_Handler	ST_Code/mems.c	/^void MEMS_Handler( void )$/;"	f
+MEMS_ID	ST_Code/circle_api.h	93;"	d
+MEMS_Info	ST_Code/mems.c	/^tMEMS_Info                          MEMS_Info                        = {0};   \/\/ structure definition in circle.h$/;"	v
+MEMS_Init	ST_Code/mems.c	/^void MEMS_Init(void)$/;"	f
+MEMS_ReadID	ST_Code/mems.c	/^u8 MEMS_ReadID( void )$/;"	f
+MEMS_ReadOutXY	ST_Code/mems.c	/^static u32 MEMS_ReadOutXY( void )$/;"	f	file:
+MEMS_SET_NEUTRAL_ID	ST_Code/circle_api.h	189;"	d
+MEMS_SendByte	ST_Code/mems.c	/^static u8 MEMS_SendByte( u8 byte )$/;"	f	file:
+MEMS_SetNeutral	ST_Code/circle_api.h	195;"	d
+MEMS_SetNeutral	ST_Code/mems.c	/^void MEMS_SetNeutral( void )$/;"	f
+MEMS_TESTING_DIVIDER	ST_Code/mems.c	29;"	d	file:
+MEMS_WakeUp	ST_Code/mems.c	/^static void MEMS_WakeUp( void )$/;"	f	file:
+MENU_CHANGE	ST_Code/circle.h	/^                        MENU_CHANGE = 3, MENU_CONTINUE_COMMAND = 4};$/;"	e	enum:MENU_code
+MENU_CHANGE	ST_Code/circle_api.h	/^   MENU_CHANGE             = 3,                    \/*!< Change current menu.  *\/$/;"	e	enum:MENU_code
+MENU_CLEAR_CURRENT_COMMAND_ID	ST_Code/circle_api.h	573;"	d
+MENU_CLEAR_CURRENT_MENU_ID	ST_Code/circle_api.h	581;"	d
+MENU_CONTINUE	ST_Code/circle.h	/^enum  MENU_code  {   MENU_LEAVE  = 0, MENU_CONTINUE = 1, MENU_REFRESH = 2,$/;"	e	enum:MENU_code
+MENU_CONTINUE	ST_Code/circle_api.h	/^   MENU_CONTINUE           = 1,                    \/*!< Continue application. *\/$/;"	e	enum:MENU_code
+MENU_CONTINUE_COMMAND	ST_Code/circle.h	/^                        MENU_CHANGE = 3, MENU_CONTINUE_COMMAND = 4};$/;"	e	enum:MENU_code
+MENU_CONTINUE_COMMAND	ST_Code/circle_api.h	/^   MENU_CONTINUE_COMMAND   = 4                     \/*!< Sent by Ini functions.*\/$/;"	e	enum:MENU_code
+MENU_ClearCurrentCommand	ST_Code/circle_api.h	589;"	d
+MENU_ClearCurrentMenu	ST_Code/circle_api.h	597;"	d
+MENU_GET_BGNDCOLOR_ID	ST_Code/circle_api.h	578;"	d
+MENU_GET_TEXTCOLOR_ID	ST_Code/circle_api.h	576;"	d
+MENU_GetBGndColor	ST_Code/circle_api.h	594;"	d
+MENU_GetTextColor	ST_Code/circle_api.h	592;"	d
+MENU_ID	ST_Code/circle_api.h	96;"	d
+MENU_LEAVE	ST_Code/circle.h	/^enum  MENU_code  {   MENU_LEAVE  = 0, MENU_CONTINUE = 1, MENU_REFRESH = 2,$/;"	e	enum:MENU_code
+MENU_LEAVE	ST_Code/circle_api.h	/^   MENU_LEAVE              = 0,                    \/*!< Leave application.    *\/$/;"	e	enum:MENU_code
+MENU_MAXITEM	ST_Code/circle.h	341;"	d
+MENU_MAXITEM	ST_Code/circle_api.h	515;"	d
+MENU_PRINT_ID	ST_Code/circle_api.h	572;"	d
+MENU_Print	ST_Code/circle_api.h	588;"	d
+MENU_QUESTION_ID	ST_Code/circle_api.h	571;"	d
+MENU_QUIT_ID	ST_Code/circle_api.h	579;"	d
+MENU_Question	ST_Code/circle_api.h	587;"	d
+MENU_Quit	ST_Code/circle_api.h	595;"	d
+MENU_REFRESH	ST_Code/circle.h	/^enum  MENU_code  {   MENU_LEAVE  = 0, MENU_CONTINUE = 1, MENU_REFRESH = 2,$/;"	e	enum:MENU_code
+MENU_REFRESH	ST_Code/circle_api.h	/^   MENU_REFRESH            = 2,                    \/*!< Refresh current menu. *\/$/;"	e	enum:MENU_code
+MENU_REMOVE_ID	ST_Code/circle_api.h	570;"	d
+MENU_Remove	ST_Code/circle_api.h	586;"	d
+MENU_SCHHDL_ID	ST_Code/circle.h	/^   MENU_SCHHDL_ID    = 3,$/;"	e	enum:eSchHandler
+MENU_SCHHDL_ID	ST_Code/circle_api.h	/^   MENU_SCHHDL_ID    = 3,$/;"	e	enum:eSchHandler
+MENU_SET_BGNDCOLOR_ID	ST_Code/circle_api.h	577;"	d
+MENU_SET_ID	ST_Code/circle_api.h	569;"	d
+MENU_SET_LEVELINI_ID	ST_Code/circle_api.h	580;"	d
+MENU_SET_LEVELTITLE_ID	ST_Code/circle_api.h	574;"	d
+MENU_SET_LEVEL_MGR_ID	ST_Code/circle_api.h	582;"	d
+MENU_SET_TEXTCOLOR_ID	ST_Code/circle_api.h	575;"	d
+MENU_Set	ST_Code/circle_api.h	585;"	d
+MENU_SetBGndColor	ST_Code/circle_api.h	593;"	d
+MENU_SetLevelTitle	ST_Code/circle_api.h	590;"	d
+MENU_SetLevel_Ini	ST_Code/circle_api.h	596;"	d
+MENU_SetLevel_Mgr	ST_Code/circle_api.h	598;"	d
+MENU_SetTextColor	ST_Code/circle_api.h	591;"	d
+MENU_code	ST_Code/circle.h	/^enum  MENU_code  {   MENU_LEAVE  = 0, MENU_CONTINUE = 1, MENU_REFRESH = 2,$/;"	g
+MENU_code	ST_Code/circle_api.h	/^enum MENU_code$/;"	g
+MIN_ANGLE_FOR_SHIFT_DOWN	ST_Code/pointer.c	31;"	d	file:
+MIN_ANGLE_FOR_SHIFT_LEFT	ST_Code/pointer.c	33;"	d	file:
+MIN_ANGLE_FOR_SHIFT_RIGHT	ST_Code/pointer.c	32;"	d	file:
+MIN_ANGLE_FOR_SHIFT_UP	ST_Code/pointer.c	30;"	d	file:
+MIN_REACT	ST_Code/mems.c	32;"	d	file:
+MemManageException	ST_Code/stm32f10x_circle_it.c	/^void MemManageException( void ) {}$/;"	f
+NMIException	ST_Code/stm32f10x_circle_it.c	/^void NMIException( void ) {}$/;"	f
+NOTE_DO	ST_Code/buzzer.c	/^      NOTE_DO    = 3,    \/*!< C  *\/$/;"	e	enum:eNotes	file:
+NOTE_DO_H	ST_Code/buzzer.c	/^      NOTE_DO_H  = 8+3,  \/*!< C# *\/$/;"	e	enum:eNotes	file:
+NOTE_FA	ST_Code/buzzer.c	/^      NOTE_FA    = 6,    \/*!< F  *\/$/;"	e	enum:eNotes	file:
+NOTE_FA_H	ST_Code/buzzer.c	/^      NOTE_FA_H  = 8+6,  \/*!< F# *\/$/;"	e	enum:eNotes	file:
+NOTE_LA	ST_Code/buzzer.c	/^      NOTE_LA    = 1,    \/*!< A  *\/$/;"	e	enum:eNotes	file:
+NOTE_LA_H	ST_Code/buzzer.c	/^      NOTE_LA_H  = 8+1,  \/*!< A# *\/$/;"	e	enum:eNotes	file:
+NOTE_MI	ST_Code/buzzer.c	/^      NOTE_MI    = 5,    \/*!< E  *\/$/;"	e	enum:eNotes	file:
+NOTE_PAUSE	ST_Code/buzzer.c	/^      NOTE_PAUSE = 0,    \/*!< P  *\/$/;"	e	enum:eNotes	file:
+NOTE_RE	ST_Code/buzzer.c	/^      NOTE_RE    = 4,    \/*!< D  *\/$/;"	e	enum:eNotes	file:
+NOTE_RE_H	ST_Code/buzzer.c	/^      NOTE_RE_H  = 8+4,  \/*!< D# *\/$/;"	e	enum:eNotes	file:
+NOTE_SI	ST_Code/buzzer.c	/^      NOTE_SI    = 2,    \/*!< B  *\/$/;"	e	enum:eNotes	file:
+NOTE_SOL	ST_Code/buzzer.c	/^      NOTE_SOL   = 7,    \/*!< G  *\/$/;"	e	enum:eNotes	file:
+NOTE_SOL_H	ST_Code/buzzer.c	/^      NOTE_SOL_H = 8+7   \/*!< G# *\/$/;"	e	enum:eNotes	file:
+NULL_SCHHDL	ST_Code/circle.h	81;"	d
+N_filtering	ST_Code/mems.c	/^unsigned                            N_filtering                      = 0;$/;"	v
+NbItems	ST_Code/circle.h	/^   int NbItems;$/;"	m	struct:__anon5
+NbItems	ST_Code/circle_api.h	/^   int NbItems;                           \/*!< Number of items in the menu ( must be <= MENU_MAXITEM )  *\/$/;"	m	struct:__anon10
+Note_Freq	ST_Code/buzzer.c	/^u16 Note_Freq [16] = {$/;"	v
+OCT_1760	ST_Code/buzzer.c	/^      OCT_1760 = 2,  \/*!< o = 7 *\/$/;"	e	enum:eOctave	file:
+OCT_3520	ST_Code/buzzer.c	/^      OCT_3520 = 3,  \/*!< o = 8 *\/$/;"	e	enum:eOctave	file:
+OCT_440	ST_Code/buzzer.c	/^      OCT_440  = 0,  \/*!< o = 5 *\/$/;"	e	enum:eOctave	file:
+OCT_7040	ST_Code/buzzer.c	/^      OCT_7040 = 4   \/*!< o = 9 *\/$/;"	e	enum:eOctave	file:
+OCT_880	ST_Code/buzzer.c	/^      OCT_880  = 1,  \/*!< o = 6 *\/$/;"	e	enum:eOctave	file:
+OUT_X	ST_Code/pointer.c	/^s16                  OUT_X;$/;"	v
+OUT_Y	ST_Code/pointer.c	/^s16                  OUT_Y;$/;"	v
+OldBatState	ST_Code/draw.c	/^u16 OldBatState;$/;"	v
+OldTHH	ST_Code/draw.c	/^u32 OldTHH;$/;"	v
+OldTMM	ST_Code/draw.c	/^u32 OldTMM;$/;"	v
+OldTSS	ST_Code/draw.c	/^u32 OldTSS;$/;"	v
+OldTemp	ST_Code/draw.c	/^u32 OldTemp;   \/\/FL071107$/;"	v
+OldUsbState	ST_Code/draw.c	/^u8 UsbState,OldUsbState;$/;"	v
+OrientationOffsetX	ST_Code/lcd.c	/^int OrientationOffsetX [] = { 0 \/* V12*\/,0 \/* V3*\/,+4 \/* V6*\/,+4 \/* V9*\/ };$/;"	v
+OrientationOffsetY	ST_Code/lcd.c	/^int OrientationOffsetY [] = { +4 \/* V12*\/,0 \/* V3*\/,0 \/* V6*\/,+4 \/* V9*\/ };$/;"	v
+OsVersion	ST_Code/Util.c	22;"	d	file:
+OutX	ST_Code/circle.h	/^   s16 OutX ;$/;"	m	struct:__anon2
+OutX	ST_Code/circle_api.h	/^   s16 OutX;                     \/*!< MEMS X position.                        *\/$/;"	m	struct:__anon7
+OutX_F16	ST_Code/circle.h	/^   s16 OutX_F16 ;$/;"	m	struct:__anon2
+OutX_F16	ST_Code/circle_api.h	/^   s16 OutX_F16;                 \/*!< MEMS X position filtered on 16 values.  *\/$/;"	m	struct:__anon7
+OutX_F256	ST_Code/circle.h	/^   s32 OutX_F256 ;$/;"	m	struct:__anon2
+OutX_F256	ST_Code/circle_api.h	/^   s32 OutX_F256;                \/*!< MEMS X position filtered on 256 values. *\/$/;"	m	struct:__anon7
+OutX_F4	ST_Code/circle.h	/^   s16 OutX_F4 ;$/;"	m	struct:__anon2
+OutX_F4	ST_Code/circle_api.h	/^   s16 OutX_F4;                  \/*!< MEMS X position filtered on 4 values.   *\/$/;"	m	struct:__anon7
+OutX_F64	ST_Code/circle.h	/^   s32 OutX_F64 ;$/;"	m	struct:__anon2
+OutX_F64	ST_Code/circle_api.h	/^   s32 OutX_F64;                 \/*!< MEMS X position filtered on 64 values.  *\/$/;"	m	struct:__anon7
+OutY	ST_Code/circle.h	/^   s16 OutY ;$/;"	m	struct:__anon2
+OutY	ST_Code/circle_api.h	/^   s16 OutY;                     \/*!< MEMS Y position.                        *\/$/;"	m	struct:__anon7
+OutY_F16	ST_Code/circle.h	/^   s16 OutY_F16 ;$/;"	m	struct:__anon2
+OutY_F16	ST_Code/circle_api.h	/^   s16 OutY_F16;                 \/*!< MEMS Y position filtered on 16 values.  *\/$/;"	m	struct:__anon7
+OutY_F256	ST_Code/circle.h	/^   s32 OutY_F256 ;$/;"	m	struct:__anon2
+OutY_F256	ST_Code/circle_api.h	/^   s32 OutY_F256;                \/*!< MEMS Y position filtered on 256 values. *\/$/;"	m	struct:__anon7
+OutY_F4	ST_Code/circle.h	/^   s16 OutY_F4 ;$/;"	m	struct:__anon2
+OutY_F4	ST_Code/circle_api.h	/^   s16 OutY_F4;                  \/*!< MEMS Y position filtered on 4 values.   *\/$/;"	m	struct:__anon7
+OutY_F64	ST_Code/circle.h	/^   s32 OutY_F64 ;$/;"	m	struct:__anon2
+OutY_F64	ST_Code/circle_api.h	/^   s32 OutY_F64;                 \/*!< MEMS Y position filtered on 64 values.  *\/$/;"	m	struct:__anon7
+OutZ	ST_Code/circle.h	/^   s16 OutZ ;$/;"	m	struct:__anon2
+OutZ	ST_Code/circle_api.h	/^   s16 OutZ;                     \/*!< MEMS Z position.                        *\/$/;"	m	struct:__anon7
+OutZ_F16	ST_Code/circle.h	/^   s16 OutZ_F16 ;$/;"	m	struct:__anon2
+OutZ_F16	ST_Code/circle_api.h	/^   s16 OutZ_F16;                 \/*!< MEMS Z position filtered on 16 values.  *\/$/;"	m	struct:__anon7
+OutZ_F256	ST_Code/circle.h	/^   s32 OutZ_F256 ;$/;"	m	struct:__anon2
+OutZ_F256	ST_Code/circle_api.h	/^   s32 OutZ_F256;                \/*!< MEMS Z position filtered on 256 values. *\/$/;"	m	struct:__anon7
+OutZ_F4	ST_Code/circle.h	/^   s16 OutZ_F4 ;$/;"	m	struct:__anon2
+OutZ_F4	ST_Code/circle_api.h	/^   s16 OutZ_F4;                  \/*!< MEMS Z position filtered on 4 values.   *\/$/;"	m	struct:__anon7
+OutZ_F64	ST_Code/circle.h	/^   s32 OutZ_F64 ;$/;"	m	struct:__anon2
+OutZ_F64	ST_Code/circle_api.h	/^   s32 OutZ_F64;                 \/*!< MEMS Z position filtered on 64 values.  *\/$/;"	m	struct:__anon7
+Output	ST_Code/lcd.h	/^   Output$/;"	e	enum:__anon11
+PAD_RIGHT	printf-stdarg.c	42;"	d	file:
+PAD_ZERO	printf-stdarg.c	43;"	d	file:
+POINTER_APPLICATION	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_APPLICATION	ST_Code/circle_api.h	/^   POINTER_APPLICATION  =  3,    \/*!< The managment of pointer depend of extern application.                         *\/$/;"	e	enum:POINTER_mode
+POINTER_DEFAULT_COLOR	ST_Code/pointer.c	25;"	d	file:
+POINTER_DIVIDER	ST_Code/pointer.c	24;"	d	file:
+POINTER_DRAW_ID	ST_Code/circle_api.h	265;"	d
+POINTER_Draw	ST_Code/circle_api.h	287;"	d
+POINTER_Draw	ST_Code/pointer.c	/^void POINTER_Draw( u8 x, u8 y, u8 width, u8 height, u8* bmp )$/;"	f
+POINTER_GETCOLOR_ID	ST_Code/circle_api.h	272;"	d
+POINTER_GETCURRENTANGLESTART_ID	ST_Code/circle_api.h	257;"	d
+POINTER_GETCURRENTSPEEDONANGLE_ID	ST_Code/circle_api.h	259;"	d
+POINTER_GETINFO_ID	ST_Code/circle_api.h	273;"	d
+POINTER_GETMODE_ID	ST_Code/circle_api.h	262;"	d
+POINTER_GETPOSITION_ID	ST_Code/circle_api.h	268;"	d
+POINTER_GETSTATE_ID	ST_Code/circle_api.h	264;"	d
+POINTER_GetColor	ST_Code/circle_api.h	294;"	d
+POINTER_GetColor	ST_Code/pointer.c	/^u16 POINTER_GetColor( void )$/;"	f
+POINTER_GetCurrentAngleStart	ST_Code/circle_api.h	279;"	d
+POINTER_GetCurrentAngleStart	ST_Code/pointer.c	/^u16 POINTER_GetCurrentAngleStart( void )$/;"	f
+POINTER_GetCurrentSpeedOnAngle	ST_Code/circle_api.h	281;"	d
+POINTER_GetCurrentSpeedOnAngle	ST_Code/pointer.c	/^u16 POINTER_GetCurrentSpeedOnAngle( void )$/;"	f
+POINTER_GetInfo	ST_Code/circle_api.h	295;"	d
+POINTER_GetInfo	ST_Code/pointer.c	/^tPointer_Info* POINTER_GetInfo( void )$/;"	f
+POINTER_GetMode	ST_Code/circle_api.h	284;"	d
+POINTER_GetMode	ST_Code/pointer.c	/^enum POINTER_mode POINTER_GetMode( void )$/;"	f
+POINTER_GetPos	ST_Code/circle_api.h	290;"	d
+POINTER_GetPos	ST_Code/pointer.c	/^u16 POINTER_GetPos( void )$/;"	f
+POINTER_GetState	ST_Code/circle_api.h	286;"	d
+POINTER_GetState	ST_Code/pointer.c	/^enum POINTER_state POINTER_GetState( void )$/;"	f
+POINTER_Handler	ST_Code/pointer.c	/^void POINTER_Handler( void )$/;"	f
+POINTER_ID	ST_Code/circle_api.h	89;"	d
+POINTER_Info	ST_Code/pointer.c	/^tPointer_Info POINTER_Info = {$/;"	v
+POINTER_Init	ST_Code/pointer.c	/^void POINTER_Init( void )$/;"	f
+POINTER_MENU	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_MENU	ST_Code/circle_api.h	/^   POINTER_MENU         =  2,    \/*!< Pointer management is used to select item menu (but pointer isn't displayed).  *\/$/;"	e	enum:POINTER_mode
+POINTER_Move	ST_Code/pointer.c	/^static int POINTER_Move( void )$/;"	f	file:
+POINTER_OFF	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_OFF	ST_Code/circle_api.h	/^   POINTER_OFF          =  0,    \/*!< Pointer isn't managed and displayed.    *\/$/;"	e	enum:POINTER_mode
+POINTER_ON	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_ON	ST_Code/circle_api.h	/^   POINTER_ON           =  1,    \/*!< Pointer mode used in main screen.       *\/$/;"	e	enum:POINTER_mode
+POINTER_RESTORE_ID	ST_Code/circle_api.h	267;"	d
+POINTER_RESTORE_LESS	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_RESTORE_LESS	ST_Code/circle_api.h	/^   POINTER_RESTORE_LESS =  4     \/*!< The background isn't restored (to go faster).                                  *\/$/;"	e	enum:POINTER_mode
+POINTER_Restore	ST_Code/circle_api.h	289;"	d
+POINTER_Restore	ST_Code/pointer.c	/^void POINTER_Restore( u8 x, u8 y, u8 width, u8 height )$/;"	f
+POINTER_SAVE_ID	ST_Code/circle_api.h	266;"	d
+POINTER_SCHHDL_ID	ST_Code/circle.h	/^   POINTER_SCHHDL_ID = 4,$/;"	e	enum:eSchHandler
+POINTER_SCHHDL_ID	ST_Code/circle_api.h	/^   POINTER_SCHHDL_ID = 4,$/;"	e	enum:eSchHandler
+POINTER_SETAPPLICATION_POINTER_MGR_ID	ST_Code/circle_api.h	270;"	d
+POINTER_SETCOLOR_ID	ST_Code/circle_api.h	271;"	d
+POINTER_SETCURRENTANGLESTART_ID	ST_Code/circle_api.h	258;"	d
+POINTER_SETCURRENTPOINTER_ID	ST_Code/circle_api.h	263;"	d
+POINTER_SETCURRENTSPEEDONANGLE_ID	ST_Code/circle_api.h	260;"	d
+POINTER_SETMODE_ID	ST_Code/circle_api.h	261;"	d
+POINTER_SETPOSITION_ID	ST_Code/circle_api.h	269;"	d
+POINTER_SETRECTSCREEN_ID	ST_Code/circle_api.h	256;"	d
+POINTER_SET_CURRENT_AREASTORE_ID	ST_Code/circle_api.h	274;"	d
+POINTER_SET_RECT_ID	ST_Code/circle_api.h	255;"	d
+POINTER_S_DISABLED	ST_Code/circle.h	/^enum POINTER_state { POINTER_S_UNDEF  = -1,  POINTER_S_DISABLED = 0, POINTER_S_ENABLED = 1 };$/;"	e	enum:POINTER_state
+POINTER_S_DISABLED	ST_Code/circle_api.h	/^   POINTER_S_DISABLED   =  0,                \/*!< Pointer is disabled.        *\/$/;"	e	enum:POINTER_state
+POINTER_S_ENABLED	ST_Code/circle.h	/^enum POINTER_state { POINTER_S_UNDEF  = -1,  POINTER_S_DISABLED = 0, POINTER_S_ENABLED = 1 };$/;"	e	enum:POINTER_state
+POINTER_S_ENABLED	ST_Code/circle_api.h	/^   POINTER_S_ENABLED    =  1                 \/*!< Pointer is enabled.         *\/$/;"	e	enum:POINTER_state
+POINTER_S_UNDEF	ST_Code/circle.h	/^enum POINTER_state { POINTER_S_UNDEF  = -1,  POINTER_S_DISABLED = 0, POINTER_S_ENABLED = 1 };$/;"	e	enum:POINTER_state
+POINTER_S_UNDEF	ST_Code/circle_api.h	/^   POINTER_S_UNDEF      = -1,                \/*!< Pointer state is unknown!   *\/$/;"	e	enum:POINTER_state
+POINTER_Save	ST_Code/circle_api.h	288;"	d
+POINTER_Save	ST_Code/pointer.c	/^void POINTER_Save( u8 x, u8 y, u8 width, u8 height )$/;"	f
+POINTER_SetApplication_Pointer_Mgr	ST_Code/circle_api.h	292;"	d
+POINTER_SetApplication_Pointer_Mgr	ST_Code/pointer.c	/^void POINTER_SetApplication_Pointer_Mgr( tAppPtrMgr mgr )$/;"	f
+POINTER_SetColor	ST_Code/circle_api.h	293;"	d
+POINTER_SetColor	ST_Code/pointer.c	/^void POINTER_SetColor( u16 color )$/;"	f
+POINTER_SetCurrentAngleStart	ST_Code/circle_api.h	280;"	d
+POINTER_SetCurrentAngleStart	ST_Code/pointer.c	/^void POINTER_SetCurrentAngleStart( u16 newangle )$/;"	f
+POINTER_SetCurrentAreaStore	ST_Code/circle_api.h	296;"	d
+POINTER_SetCurrentAreaStore	ST_Code/pointer.c	/^void POINTER_SetCurrentAreaStore( u8* ptr )$/;"	f
+POINTER_SetCurrentPointer	ST_Code/circle_api.h	285;"	d
+POINTER_SetCurrentPointer	ST_Code/pointer.c	/^void POINTER_SetCurrentPointer( u8 width, u8 height, u8* bmp )$/;"	f
+POINTER_SetCurrentSpeedOnAngle	ST_Code/circle_api.h	282;"	d
+POINTER_SetCurrentSpeedOnAngle	ST_Code/pointer.c	/^void POINTER_SetCurrentSpeedOnAngle( u16 newspeed )$/;"	f
+POINTER_SetMode	ST_Code/circle_api.h	283;"	d
+POINTER_SetMode	ST_Code/pointer.c	/^void POINTER_SetMode( enum POINTER_mode mode )$/;"	f
+POINTER_SetPos	ST_Code/circle_api.h	291;"	d
+POINTER_SetPos	ST_Code/pointer.c	/^void POINTER_SetPos( u16 x, u16 y )$/;"	f
+POINTER_SetRect	ST_Code/circle_api.h	277;"	d
+POINTER_SetRect	ST_Code/pointer.c	/^void POINTER_SetRect( s16 x, s16 y, s16 width, s16 height )$/;"	f
+POINTER_SetRectScreen	ST_Code/circle_api.h	278;"	d
+POINTER_SetRectScreen	ST_Code/pointer.c	/^void POINTER_SetRectScreen( void )$/;"	f
+POINTER_UNDEF	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	e	enum:POINTER_mode
+POINTER_UNDEF	ST_Code/circle_api.h	/^   POINTER_UNDEF        = -1,    \/*!< Pointer's mode is unknown!              *\/$/;"	e	enum:POINTER_mode
+POINTER_WIDTH	ST_Code/circle.h	182;"	d
+POINTER_WIDTH	ST_Code/circle_api.h	252;"	d
+POINTER_mode	ST_Code/circle.h	/^enum POINTER_mode  { POINTER_UNDEF  = -1, POINTER_OFF = 0, POINTER_ON = 1, POINTER_MENU  = 2, POINTER_APPLICATION = 3, POINTER_RESTORE_LESS = 4 };$/;"	g
+POINTER_mode	ST_Code/circle_api.h	/^enum POINTER_mode$/;"	g
+POINTER_state	ST_Code/circle.h	/^enum POINTER_state { POINTER_S_UNDEF  = -1,  POINTER_S_DISABLED = 0, POINTER_S_ENABLED = 1 };$/;"	g
+POINTER_state	ST_Code/circle_api.h	/^enum POINTER_state$/;"	g
+POS_MAX	ST_Code/pointer.c	23;"	d	file:
+POS_MIN	ST_Code/pointer.c	22;"	d	file:
+PRINT_BUF_LEN	printf-stdarg.c	76;"	d	file:
+PWMI_Config	ST_Code/stm32f10x_tim.c	/^static void PWMI_Config(TIM_TypeDef* TIMx, TIM_ICInitTypeDef* TIM_ICInitStruct)$/;"	f	file:
+PendSVC	ST_Code/stm32f10x_circle_it.c	/^void PendSVC( void ) {}$/;"	f
+Period_HF	ST_Code/led.c	/^const int      Period_HF         = 50 * 2;$/;"	v
+Period_LF	ST_Code/led.c	/^const int      Period_LF         = 200 * 2;$/;"	v
+PlayMusic	ST_Code/buzzer.c	/^static void PlayMusic( void )$/;"	f	file:
+Pointer_Mode	ST_Code/pointer.c	/^enum POINTER_mode    Pointer_Mode                     = POINTER_UNDEF;$/;"	v	typeref:enum:POINTER_mode
+Pointer_State	ST_Code/pointer.c	/^enum POINTER_state   Pointer_State                    = POINTER_S_UNDEF;$/;"	v	typeref:enum:POINTER_state
+RCC_ClockFreq	ST_Code/Util.c	/^RCC_ClocksTypeDef    RCC_ClockFreq;$/;"	v
+RDCTRL_REG1	ST_Code/mems.c	23;"	d	file:
+RDID	ST_Code/mems.c	24;"	d	file:
+RDOUTXL	ST_Code/mems.c	21;"	d	file:
+READ_MODIFY_WRITE_OFF	ST_Code/lcd.h	63;"	d
+RELATIVE_X	ST_Code/circle.h	/^   s16 RELATIVE_X ;$/;"	m	struct:__anon2
+RELATIVE_X	ST_Code/circle_api.h	/^   s16 RELATIVE_X;               \/*!< MEMS relative X position.               *\/$/;"	m	struct:__anon7
+RELATIVE_Y	ST_Code/circle.h	/^   s16 RELATIVE_Y ;$/;"	m	struct:__anon2
+RELATIVE_Y	ST_Code/circle_api.h	/^   s16 RELATIVE_Y;               \/*!< MEMS relative Y position.               *\/$/;"	m	struct:__anon7
+REMOVE_MENU	ST_Code/circle.h	346;"	d
+REMOVE_MENU	ST_Code/circle_api.h	513;"	d
+RGB_BLACK	ST_Code/circle.h	246;"	d
+RGB_BLACK	ST_Code/circle_api.h	362;"	d
+RGB_BLUE	ST_Code/circle.h	248;"	d
+RGB_BLUE	ST_Code/circle_api.h	364;"	d
+RGB_GREEN	ST_Code/circle.h	249;"	d
+RGB_GREEN	ST_Code/circle_api.h	365;"	d
+RGB_LIGHTBLUE	ST_Code/circle.h	252;"	d
+RGB_LIGHTBLUE	ST_Code/circle_api.h	368;"	d
+RGB_MAGENTA	ST_Code/circle.h	251;"	d
+RGB_MAGENTA	ST_Code/circle_api.h	367;"	d
+RGB_MAKE	ST_Code/circle.h	242;"	d
+RGB_MAKE	ST_Code/circle_api.h	357;"	d
+RGB_ORANGE	ST_Code/circle.h	253;"	d
+RGB_ORANGE	ST_Code/circle_api.h	369;"	d
+RGB_PINK	ST_Code/circle.h	254;"	d
+RGB_PINK	ST_Code/circle_api.h	370;"	d
+RGB_RED	ST_Code/circle.h	245;"	d
+RGB_RED	ST_Code/circle_api.h	361;"	d
+RGB_WHITE	ST_Code/circle.h	247;"	d
+RGB_WHITE	ST_Code/circle_api.h	363;"	d
+RGB_YELLOW	ST_Code/circle.h	250;"	d
+RGB_YELLOW	ST_Code/circle_api.h	366;"	d
+ROTATE_DIVISER	ST_Code/draw.c	24;"	d	file:
+RTC_DISPLAY_TIME_ID	ST_Code/circle_api.h	667;"	d
+RTC_DisplayTime	ST_Code/circle_api.h	672;"	d
+RTC_GET_TIME_ID	ST_Code/circle_api.h	666;"	d
+RTC_GetTime	ST_Code/circle_api.h	671;"	d
+RTC_ID	ST_Code/circle_api.h	98;"	d
+RTC_SCHHDL_ID	ST_Code/circle.h	/^   RTC_SCHHDL_ID     = 7,$/;"	e	enum:eSchHandler
+RTC_SCHHDL_ID	ST_Code/circle_api.h	/^   RTC_SCHHDL_ID     = 7,$/;"	e	enum:eSchHandler
+RTC_SET_TIME_ID	ST_Code/circle_api.h	665;"	d
+RTC_SetTime	ST_Code/circle_api.h	670;"	d
+RTTTL_SEP	ST_Code/buzzer.c	48;"	d	file:
+RedLED_Counter	ST_Code/led.c	/^int            RedLED_Counter    = 0;$/;"	v
+RedLED_mode	ST_Code/led.c	/^enum LED_mode  RedLED_mode       = LED_UNDEF;$/;"	v	typeref:enum:LED_mode
+RedLED_newmode	ST_Code/led.c	/^enum LED_mode  RedLED_newmode    = LED_OFF;$/;"	v	typeref:enum:LED_mode
+Reset_Handler	ST_Code/crt0_STM32x.c	/^void Reset_Handler(void)$/;"	f
+Rotate_H12_V_Match_TypeDef	ST_Code/circle.h	/^} Rotate_H12_V_Match_TypeDef;$/;"	t	typeref:enum:__anon1
+Rotate_H12_V_Match_TypeDef	ST_Code/circle_api.h	/^   } Rotate_H12_V_Match_TypeDef;$/;"	t	typeref:enum:__anon6
+SCH_HDL_MAX	ST_Code/scheduler.h	77;"	d
+SCREEN_HEIGHT	ST_Code/circle.h	258;"	d
+SCREEN_HEIGHT	ST_Code/circle_api.h	378;"	d
+SCREEN_WIDTH	ST_Code/circle.h	257;"	d
+SCREEN_WIDTH	ST_Code/circle_api.h	377;"	d
+SMCR_ECE_Set	ST_Code/stm32f10x_tim.c	49;"	d	file:
+SMCR_ETR_Mask	ST_Code/stm32f10x_tim.c	46;"	d	file:
+SMCR_MSM_Mask	ST_Code/stm32f10x_tim.c	48;"	d	file:
+SMCR_SMS_Mask	ST_Code/stm32f10x_tim.c	45;"	d	file:
+SMCR_TS_Mask	ST_Code/stm32f10x_tim.c	47;"	d	file:
+SOFTWARE_RESET	ST_Code/lcd.h	64;"	d
+SPEED_HIGH	ST_Code/circle.h	/^   SPEED_HIGH        = 4,$/;"	e	enum:eSpeed
+SPEED_HIGH	ST_Code/circle_api.h	/^   SPEED_HIGH        = 4,$/;"	e	enum:eSpeed
+SPEED_LOW	ST_Code/circle.h	/^   SPEED_LOW         = 2,$/;"	e	enum:eSpeed
+SPEED_LOW	ST_Code/circle_api.h	/^   SPEED_LOW         = 2,$/;"	e	enum:eSpeed
+SPEED_MEDIUM	ST_Code/circle.h	/^   SPEED_MEDIUM      = 3,$/;"	e	enum:eSpeed
+SPEED_MEDIUM	ST_Code/circle_api.h	/^   SPEED_MEDIUM      = 3,$/;"	e	enum:eSpeed
+SPEED_VERY_HIGH	ST_Code/circle.h	/^   SPEED_VERY_HIGH   = 5$/;"	e	enum:eSpeed
+SPEED_VERY_HIGH	ST_Code/circle_api.h	/^   SPEED_VERY_HIGH   = 5$/;"	e	enum:eSpeed
+SPEED_VERY_LOW	ST_Code/circle.h	/^   SPEED_VERY_LOW    = 1,$/;"	e	enum:eSpeed
+SPEED_VERY_LOW	ST_Code/circle_api.h	/^   SPEED_VERY_LOW    = 1,$/;"	e	enum:eSpeed
+ST7637_ANASET	ST_Code/lcd.h	131;"	d
+ST7637_APOFF	ST_Code/lcd.h	84;"	d
+ST7637_APON	ST_Code/lcd.h	85;"	d
+ST7637_AUTOLOADSET	ST_Code/lcd.h	132;"	d
+ST7637_BIASSEL	ST_Code/lcd.h	121;"	d
+ST7637_BSTBMPXSEL	ST_Code/lcd.h	122;"	d
+ST7637_BSTEFFSEL	ST_Code/lcd.h	123;"	d
+ST7637_CASET	ST_Code/lcd.h	89;"	d
+ST7637_COLMOD	ST_Code/lcd.h	103;"	d
+ST7637_COMSCANDIR	ST_Code/lcd.h	114;"	d
+ST7637_DISPOFF	ST_Code/lcd.h	87;"	d
+ST7637_DISPON	ST_Code/lcd.h	88;"	d
+ST7637_DUTYSET	ST_Code/lcd.h	109;"	d
+ST7637_EPCTIN	ST_Code/lcd.h	135;"	d
+ST7637_EPCTOUT	ST_Code/lcd.h	136;"	d
+ST7637_EPMRD	ST_Code/lcd.h	138;"	d
+ST7637_EPMWR	ST_Code/lcd.h	137;"	d
+ST7637_FIRSTCOM	ST_Code/lcd.h	110;"	d
+ST7637_FRAMESET	ST_Code/lcd.h	149;"	d
+ST7637_FRM8SEL	ST_Code/lcd.h	144;"	d
+ST7637_FRMSEL	ST_Code/lcd.h	143;"	d
+ST7637_HPMSET	ST_Code/lcd.h	141;"	d
+ST7637_ID1SET	ST_Code/lcd.h	127;"	d
+ST7637_ID2SET	ST_Code/lcd.h	128;"	d
+ST7637_ID3SET	ST_Code/lcd.h	129;"	d
+ST7637_IDMOFF	ST_Code/lcd.h	101;"	d
+ST7637_IDMON	ST_Code/lcd.h	102;"	d
+ST7637_INVOFF	ST_Code/lcd.h	82;"	d
+ST7637_INVON	ST_Code/lcd.h	83;"	d
+ST7637_MADCTR	ST_Code/lcd.h	99;"	d
+ST7637_MAXCOL	ST_Code/lcd.h	151;"	d
+ST7637_MAXPAG	ST_Code/lcd.h	152;"	d
+ST7637_MTPSEL	ST_Code/lcd.h	139;"	d
+ST7637_NLINVSET	ST_Code/lcd.h	113;"	d
+ST7637_NOP	ST_Code/lcd.h	66;"	d
+ST7637_NORON	ST_Code/lcd.h	80;"	d
+ST7637_OSCDIV	ST_Code/lcd.h	111;"	d
+ST7637_PTLAR	ST_Code/lcd.h	95;"	d
+ST7637_PTLMOD	ST_Code/lcd.h	112;"	d
+ST7637_PTLON	ST_Code/lcd.h	79;"	d
+ST7637_RAMRD	ST_Code/lcd.h	93;"	d
+ST7637_RAMWR	ST_Code/lcd.h	91;"	d
+ST7637_RASET	ST_Code/lcd.h	90;"	d
+ST7637_RDDCOLMOD	ST_Code/lcd.h	72;"	d
+ST7637_RDDID	ST_Code/lcd.h	68;"	d
+ST7637_RDDIM	ST_Code/lcd.h	73;"	d
+ST7637_RDDMADCTR	ST_Code/lcd.h	71;"	d
+ST7637_RDDPM	ST_Code/lcd.h	70;"	d
+ST7637_RDDSDR	ST_Code/lcd.h	75;"	d
+ST7637_RDDSM	ST_Code/lcd.h	74;"	d
+ST7637_RDDST	ST_Code/lcd.h	69;"	d
+ST7637_RDID1	ST_Code/lcd.h	105;"	d
+ST7637_RDID2	ST_Code/lcd.h	106;"	d
+ST7637_RDID3	ST_Code/lcd.h	107;"	d
+ST7637_RDTSTSTATUS	ST_Code/lcd.h	133;"	d
+ST7637_RGBSET	ST_Code/lcd.h	92;"	d
+ST7637_RMWIN	ST_Code/lcd.h	115;"	d
+ST7637_RMWOUT	ST_Code/lcd.h	116;"	d
+ST7637_ROMSET	ST_Code/lcd.h	140;"	d
+ST7637_SCRLAR	ST_Code/lcd.h	96;"	d
+ST7637_SLPIN	ST_Code/lcd.h	77;"	d
+ST7637_SLPOUT	ST_Code/lcd.h	78;"	d
+ST7637_SWRESET	ST_Code/lcd.h	67;"	d
+ST7637_TEMPSEL	ST_Code/lcd.h	147;"	d
+ST7637_TEOFF	ST_Code/lcd.h	97;"	d
+ST7637_TEON	ST_Code/lcd.h	98;"	d
+ST7637_THYS	ST_Code/lcd.h	148;"	d
+ST7637_TMPHYS	ST_Code/lcd.h	146;"	d
+ST7637_TMPRNG	ST_Code/lcd.h	145;"	d
+ST7637_VGSORCSEL	ST_Code/lcd.h	125;"	d
+ST7637_VOPOFFSET	ST_Code/lcd.h	124;"	d
+ST7637_VOPOFSETDEC	ST_Code/lcd.h	120;"	d
+ST7637_VOPOFSETINC	ST_Code/lcd.h	119;"	d
+ST7637_VOPSET	ST_Code/lcd.h	118;"	d
+ST7637_VSCSAD	ST_Code/lcd.h	100;"	d
+ST7637_WRCNTR	ST_Code/lcd.h	86;"	d
+START_COLUMN	ST_Code/lcd.h	59;"	d
+START_LINE	ST_Code/lcd.h	58;"	d
+SVCHandler	ST_Code/stm32f10x_circle_it.c	/^void SVCHandler( void ) {}$/;"	f
+SelectedItem	ST_Code/circle.h	/^   unsigned int SelectedItem;$/;"	m	struct:__anon5
+SelectedItem	ST_Code/circle_api.h	/^   unsigned int SelectedItem;             \/*!< ID of selected item (0 for first item, 1 for second item, ...) *\/$/;"	m	struct:__anon10
+Shocked	ST_Code/circle.h	/^   s16 Shocked ;$/;"	m	struct:__anon2
+Shocked	ST_Code/circle_api.h	/^   s16 Shocked;                  \/*!< MEMS shock counter (incremented...)     *\/$/;"	m	struct:__anon7
+StartingFromResetOrShockCounter	ST_Code/mems.c	/^int                                 StartingFromResetOrShockCounter  = 1000;$/;"	v
+TI1_Config	ST_Code/stm32f10x_tim.c	/^static void TI1_Config(TIM_TypeDef* TIMx, u16 TIM_ICPolarity, u16 TIM_ICSelection,$/;"	f	file:
+TI2_Config	ST_Code/stm32f10x_tim.c	/^static void TI2_Config(TIM_TypeDef* TIMx, u16 TIM_ICPolarity, u16 TIM_ICSelection,$/;"	f	file:
+TI3_Config	ST_Code/stm32f10x_tim.c	/^static void TI3_Config(TIM_TypeDef* TIMx, u16 TIM_ICPolarity, u16 TIM_ICSelection,$/;"	f	file:
+TI4_Config	ST_Code/stm32f10x_tim.c	/^static void TI4_Config(TIM_TypeDef* TIMx, u16 TIM_ICPolarity, u16 TIM_ICSelection,$/;"	f	file:
+TIM2	ST_Code/circle.h	28;"	d
+TIM2_IRQHandler	ST_Code/stm32f10x_circle_it.c	/^void TIM2_IRQHandler( void )$/;"	f
+TIM3_IRQHandler	ST_Code/stm32f10x_circle_it.c	/^void TIM3_IRQHandler( void )$/;"	f
+TIM4_IRQHandler	ST_Code/stm32f10x_circle_it.c	/^void TIM4_IRQHandler( void )$/;"	f
+TIM_ARRPreloadConfig	ST_Code/stm32f10x_tim.c	/^void TIM_ARRPreloadConfig(TIM_TypeDef* TIMx, FunctionalState Newstate)$/;"	f
+TIM_ClearFlag	ST_Code/stm32f10x_tim.c	/^void TIM_ClearFlag(TIM_TypeDef* TIMx, u16 TIM_FLAG)$/;"	f
+TIM_ClearITPendingBit	ST_Code/stm32f10x_tim.c	/^void TIM_ClearITPendingBit(TIM_TypeDef* TIMx, u16 TIM_IT)$/;"	f
+TIM_Cmd	ST_Code/stm32f10x_tim.c	/^void TIM_Cmd(TIM_TypeDef* TIMx, FunctionalState NewState)$/;"	f
+TIM_CounterModeConfig	ST_Code/stm32f10x_tim.c	/^void TIM_CounterModeConfig(TIM_TypeDef* TIMx, u16 TIM_CounterMode)$/;"	f
+TIM_DMACmd	ST_Code/stm32f10x_tim.c	/^void TIM_DMACmd(TIM_TypeDef* TIMx, u16 TIM_DMASource, FunctionalState Newstate)$/;"	f
+TIM_DMAConfig	ST_Code/stm32f10x_tim.c	/^void TIM_DMAConfig(TIM_TypeDef* TIMx, u16 TIM_DMABase, u16 TIM_DMABurstLength)$/;"	f
+TIM_DeInit	ST_Code/stm32f10x_tim.c	/^void TIM_DeInit(TIM_TypeDef* TIMx)$/;"	f
+TIM_ETRClockMode1Config	ST_Code/stm32f10x_tim.c	/^void TIM_ETRClockMode1Config(TIM_TypeDef* TIMx, u16 TIM_ExtTRGPrescaler, u16 TIM_ExtTRGPolarity,$/;"	f
+TIM_ETRClockMode2Config	ST_Code/stm32f10x_tim.c	/^void TIM_ETRClockMode2Config(TIM_TypeDef* TIMx, u16 TIM_ExtTRGPrescaler, $/;"	f
+TIM_EncoderInterfaceConfig	ST_Code/stm32f10x_tim.c	/^void TIM_EncoderInterfaceConfig(TIM_TypeDef* TIMx, u16 TIM_EncoderMode,$/;"	f
+TIM_ForcedOC1Config	ST_Code/stm32f10x_tim.c	/^void TIM_ForcedOC1Config(TIM_TypeDef* TIMx, u16 TIM_ForcedAction)$/;"	f
+TIM_ForcedOC2Config	ST_Code/stm32f10x_tim.c	/^void TIM_ForcedOC2Config(TIM_TypeDef* TIMx, u16 TIM_ForcedAction)$/;"	f
+TIM_ForcedOC3Config	ST_Code/stm32f10x_tim.c	/^void TIM_ForcedOC3Config(TIM_TypeDef* TIMx, u16 TIM_ForcedAction)$/;"	f
+TIM_ForcedOC4Config	ST_Code/stm32f10x_tim.c	/^void TIM_ForcedOC4Config(TIM_TypeDef* TIMx, u16 TIM_ForcedAction)$/;"	f
+TIM_GenerateEvent	ST_Code/stm32f10x_tim.c	/^void TIM_GenerateEvent(TIM_TypeDef* TIMx, u16 TIM_EventSource)$/;"	f
+TIM_GetCapture1	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetCapture1(TIM_TypeDef* TIMx)$/;"	f
+TIM_GetCapture2	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetCapture2(TIM_TypeDef* TIMx)$/;"	f
+TIM_GetCapture3	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetCapture3(TIM_TypeDef* TIMx)$/;"	f
+TIM_GetCapture4	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetCapture4(TIM_TypeDef* TIMx)$/;"	f
+TIM_GetCounter	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetCounter(TIM_TypeDef* TIMx)$/;"	f
+TIM_GetFlagStatus	ST_Code/stm32f10x_tim.c	/^FlagStatus TIM_GetFlagStatus(TIM_TypeDef* TIMx, u16 TIM_FLAG)$/;"	f
+TIM_GetITStatus	ST_Code/stm32f10x_tim.c	/^ITStatus TIM_GetITStatus(TIM_TypeDef* TIMx, u16 TIM_IT)$/;"	f
+TIM_GetPrescaler	ST_Code/stm32f10x_tim.c	/^u16 TIM_GetPrescaler(TIM_TypeDef* TIMx)$/;"	f
+TIM_ICFilter_Mask	ST_Code/stm32f10x_tim.c	92;"	d	file:
+TIM_ICInit	ST_Code/stm32f10x_tim.c	/^void TIM_ICInit(TIM_TypeDef* TIMx, TIM_ICInitTypeDef* TIM_ICInitStruct)$/;"	f
+TIM_ICStructInit	ST_Code/stm32f10x_tim.c	/^void TIM_ICStructInit(TIM_ICInitTypeDef* TIM_ICInitStruct)$/;"	f
+TIM_ITConfig	ST_Code/stm32f10x_tim.c	/^void TIM_ITConfig(TIM_TypeDef* TIMx, u16 TIM_IT, FunctionalState NewState)$/;"	f
+TIM_ITRxExternalClockConfig	ST_Code/stm32f10x_tim.c	/^void TIM_ITRxExternalClockConfig(TIM_TypeDef* TIMx, u16 TIM_InputTriggerSource)$/;"	f
+TIM_InternalClockConfig	ST_Code/stm32f10x_tim.c	/^void TIM_InternalClockConfig(TIM_TypeDef* TIMx)$/;"	f
+TIM_OC1FastConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC1FastConfig(TIM_TypeDef* TIMx, u16 TIM_OCFast)$/;"	f
+TIM_OC1PolarityConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC1PolarityConfig(TIM_TypeDef* TIMx, u16 TIM_OCPolarity)$/;"	f
+TIM_OC1PreloadConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC1PreloadConfig(TIM_TypeDef* TIMx, u16 TIM_OCPreload)$/;"	f
+TIM_OC2FastConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC2FastConfig(TIM_TypeDef* TIMx, u16 TIM_OCFast)$/;"	f
+TIM_OC2PolarityConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC2PolarityConfig(TIM_TypeDef* TIMx, u16 TIM_OCPolarity)$/;"	f
+TIM_OC2PreloadConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC2PreloadConfig(TIM_TypeDef* TIMx, u16 TIM_OCPreload)$/;"	f
+TIM_OC3FastConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC3FastConfig(TIM_TypeDef* TIMx, u16 TIM_OCFast)$/;"	f
+TIM_OC3PolarityConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC3PolarityConfig(TIM_TypeDef* TIMx, u16 TIM_OCPolarity)$/;"	f
+TIM_OC3PreloadConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC3PreloadConfig(TIM_TypeDef* TIMx, u16 TIM_OCPreload)$/;"	f
+TIM_OC4FastConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC4FastConfig(TIM_TypeDef* TIMx, u16 TIM_OCFast)$/;"	f
+TIM_OC4PolarityConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC4PolarityConfig(TIM_TypeDef* TIMx, u16 TIM_OCPolarity)$/;"	f
+TIM_OC4PreloadConfig	ST_Code/stm32f10x_tim.c	/^void TIM_OC4PreloadConfig(TIM_TypeDef* TIMx, u16 TIM_OCPreload)$/;"	f
+TIM_OCInit	ST_Code/stm32f10x_tim.c	/^void TIM_OCInit(TIM_TypeDef* TIMx, TIM_OCInitTypeDef* TIM_OCInitStruct)$/;"	f
+TIM_OCInitStructure	ST_Code/buzzer.c	/^static TIM_OCInitTypeDef         TIM_OCInitStructure;$/;"	v	file:
+TIM_OCInitStructure	ST_Code/lcd.c	/^static TIM_OCInitTypeDef            TIM_OCInitStructure;$/;"	v	file:
+TIM_OCStructInit	ST_Code/stm32f10x_tim.c	/^void TIM_OCStructInit(TIM_OCInitTypeDef* TIM_OCInitStruct)$/;"	f
+TIM_Period_Reset_Mask	ST_Code/stm32f10x_tim.c	89;"	d	file:
+TIM_PrescalerConfig	ST_Code/stm32f10x_tim.c	/^void TIM_PrescalerConfig(TIM_TypeDef* TIMx, u16 Prescaler, u16 TIM_PSCReloadMode)$/;"	f
+TIM_Prescaler_Reset_Mask	ST_Code/stm32f10x_tim.c	90;"	d	file:
+TIM_Pulse_Reset_Mask	ST_Code/stm32f10x_tim.c	91;"	d	file:
+TIM_SelectCCDMA	ST_Code/stm32f10x_tim.c	/^void TIM_SelectCCDMA(TIM_TypeDef* TIMx, FunctionalState Newstate)$/;"	f
+TIM_SelectHallSensor	ST_Code/stm32f10x_tim.c	/^void TIM_SelectHallSensor(TIM_TypeDef* TIMx, FunctionalState Newstate)$/;"	f
+TIM_SelectInputTrigger	ST_Code/stm32f10x_tim.c	/^void TIM_SelectInputTrigger(TIM_TypeDef* TIMx, u16 TIM_InputTriggerSource)$/;"	f
+TIM_SelectMasterSlaveMode	ST_Code/stm32f10x_tim.c	/^void TIM_SelectMasterSlaveMode(TIM_TypeDef* TIMx, u16 TIM_MasterSlaveMode)$/;"	f
+TIM_SelectOnePulseMode	ST_Code/stm32f10x_tim.c	/^void TIM_SelectOnePulseMode(TIM_TypeDef* TIMx, u16 TIM_OPMode)$/;"	f
+TIM_SelectOutputTrigger	ST_Code/stm32f10x_tim.c	/^void TIM_SelectOutputTrigger(TIM_TypeDef* TIMx, u16 TIM_TRGOSource)$/;"	f
+TIM_SelectSlaveMode	ST_Code/stm32f10x_tim.c	/^void TIM_SelectSlaveMode(TIM_TypeDef* TIMx, u16 TIM_SlaveMode)$/;"	f
+TIM_SetAutoreload	ST_Code/stm32f10x_tim.c	/^void TIM_SetAutoreload(TIM_TypeDef* TIMx, u16 Autoreload)$/;"	f
+TIM_SetClockDivision	ST_Code/stm32f10x_tim.c	/^void TIM_SetClockDivision(TIM_TypeDef* TIMx, u16 TIM_CKD)$/;"	f
+TIM_SetCompare1	ST_Code/stm32f10x_tim.c	/^void TIM_SetCompare1(TIM_TypeDef* TIMx, u16 Compare1)$/;"	f
+TIM_SetCompare2	ST_Code/stm32f10x_tim.c	/^void TIM_SetCompare2(TIM_TypeDef* TIMx, u16 Compare2)$/;"	f
+TIM_SetCompare3	ST_Code/stm32f10x_tim.c	/^void TIM_SetCompare3(TIM_TypeDef* TIMx, u16 Compare3)$/;"	f
+TIM_SetCompare4	ST_Code/stm32f10x_tim.c	/^void TIM_SetCompare4(TIM_TypeDef* TIMx, u16 Compare4)$/;"	f
+TIM_SetIC1Prescaler	ST_Code/stm32f10x_tim.c	/^void TIM_SetIC1Prescaler(TIM_TypeDef* TIMx, u16 TIM_IC1Prescaler)$/;"	f
+TIM_SetIC2Prescaler	ST_Code/stm32f10x_tim.c	/^void TIM_SetIC2Prescaler(TIM_TypeDef* TIMx, u16 TIM_IC2Prescaler)$/;"	f
+TIM_SetIC3Prescaler	ST_Code/stm32f10x_tim.c	/^void TIM_SetIC3Prescaler(TIM_TypeDef* TIMx, u16 TIM_IC3Prescaler)$/;"	f
+TIM_SetIC4Prescaler	ST_Code/stm32f10x_tim.c	/^void TIM_SetIC4Prescaler(TIM_TypeDef* TIMx, u16 TIM_IC4Prescaler)$/;"	f
+TIM_TIxExternalClockConfig	ST_Code/stm32f10x_tim.c	/^void TIM_TIxExternalClockConfig(TIM_TypeDef* TIMx, u16 TIM_TIxExternalCLKSource,$/;"	f
+TIM_TimeBaseInit	ST_Code/stm32f10x_tim.c	/^void TIM_TimeBaseInit(TIM_TypeDef* TIMx, TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct)$/;"	f
+TIM_TimeBaseStructInit	ST_Code/stm32f10x_tim.c	/^void TIM_TimeBaseStructInit(TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct)$/;"	f
+TIM_TimeBaseStructure	ST_Code/buzzer.c	/^static TIM_TimeBaseInitTypeDef   TIM_TimeBaseStructure;$/;"	v	file:
+TIM_TimeBaseStructure	ST_Code/lcd.c	/^static TIM_TimeBaseInitTypeDef      TIM_TimeBaseStructure;$/;"	v	file:
+TIM_UpdateDisableConfig	ST_Code/stm32f10x_tim.c	/^void TIM_UpdateDisableConfig(TIM_TypeDef* TIMx, FunctionalState Newstate)$/;"	f
+TIM_UpdateRequestConfig	ST_Code/stm32f10x_tim.c	/^void TIM_UpdateRequestConfig(TIM_TypeDef* TIMx, u16 TIM_UpdateSource)$/;"	f
+Tab_OCModeMask	ST_Code/stm32f10x_tim.c	/^static uc16 Tab_OCModeMask[4] = {0xFF00, 0x00FF, 0xFF00, 0x00FF};$/;"	v	file:
+Tab_PolarityMask	ST_Code/stm32f10x_tim.c	/^static uc16 Tab_PolarityMask[4] = {CCER_CC1P_Mask, CCER_CC2P_Mask, CCER_CC3P_Mask, CCER_CC4P_Mask};$/;"	v	file:
+TestingActive	ST_Code/mems.c	/^int                                 TestingActive                    = 0;$/;"	v
+Text	ST_Code/circle.h	/^   const char *Text;$/;"	m	struct:__anon4
+Text	ST_Code/circle_api.h	/^   const char* Text;                            \/*!<  Name of Item displayed in menu   *\/$/;"	m	struct:__anon9
+TextColor	ST_Code/draw.c	/^static u16 TextColor;            \/*!< Current text color.                     *\/$/;"	v	file:
+TimeCounterForDoubleClick	ST_Code/mems.c	/^int                                 TimeCounterForDoubleClick        = 0;$/;"	v
+TimeLastShock	ST_Code/mems.c	/^int                                 TimeLastShock                    = 0;$/;"	v
+Title	ST_Code/circle.h	/^   const char *Title;$/;"	m	struct:__anon5
+Title	ST_Code/circle_api.h	/^   const char* Title;                     \/*!< Menu title.                    *\/$/;"	m	struct:__anon10
+UNUSED0_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED0_SCHHDL_ID = 8,$/;"	e	enum:eSchHandler
+UNUSED0_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED0_SCHHDL_ID = 8,$/;"	e	enum:eSchHandler
+UNUSED1_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED1_SCHHDL_ID = 9,$/;"	e	enum:eSchHandler
+UNUSED1_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED1_SCHHDL_ID = 9,$/;"	e	enum:eSchHandler
+UNUSED2_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED2_SCHHDL_ID = 10,$/;"	e	enum:eSchHandler
+UNUSED2_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED2_SCHHDL_ID = 10,$/;"	e	enum:eSchHandler
+UNUSED3_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED3_SCHHDL_ID = 11,$/;"	e	enum:eSchHandler
+UNUSED3_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED3_SCHHDL_ID = 11,$/;"	e	enum:eSchHandler
+UNUSED4_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED4_SCHHDL_ID = 12,$/;"	e	enum:eSchHandler
+UNUSED4_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED4_SCHHDL_ID = 12,$/;"	e	enum:eSchHandler
+UNUSED5_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED5_SCHHDL_ID = 13,$/;"	e	enum:eSchHandler
+UNUSED5_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED5_SCHHDL_ID = 13,$/;"	e	enum:eSchHandler
+UNUSED6_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED6_SCHHDL_ID = 14,$/;"	e	enum:eSchHandler
+UNUSED6_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED6_SCHHDL_ID = 14,$/;"	e	enum:eSchHandler
+UNUSED7_SCHHDL_ID	ST_Code/circle.h	/^   UNUSED7_SCHHDL_ID = 15   $/;"	e	enum:eSchHandler
+UNUSED7_SCHHDL_ID	ST_Code/circle_api.h	/^   UNUSED7_SCHHDL_ID = 15   $/;"	e	enum:eSchHandler
+UTIL_GET_BAT_ID	ST_Code/circle_api.h	108;"	d
+UTIL_GET_IRQ_HANDLER_ID	ST_Code/circle_api.h	111;"	d
+UTIL_GET_PLL_ID	ST_Code/circle_api.h	102;"	d
+UTIL_GET_SCH_HANDLER_ID	ST_Code/circle_api.h	113;"	d
+UTIL_GET_TEMP_ID	ST_Code/circle_api.h	114;"	d
+UTIL_GET_USB_ID	ST_Code/circle_api.h	109;"	d
+UTIL_GET_VERSION_ID	ST_Code/circle_api.h	105;"	d
+UTIL_GetBat	ST_Code/Util.c	/^u16 UTIL_GetBat( void )$/;"	f
+UTIL_GetBat	ST_Code/circle_api.h	126;"	d
+UTIL_GetIrqHandler	ST_Code/Util.c	/^tHandler UTIL_GetIrqHandler( int Offs )$/;"	f
+UTIL_GetIrqHandler	ST_Code/circle_api.h	129;"	d
+UTIL_GetPll	ST_Code/Util.c	/^enum eSpeed UTIL_GetPll( void )$/;"	f
+UTIL_GetPll	ST_Code/circle_api.h	120;"	d
+UTIL_GetSchHandler	ST_Code/Util.c	/^tHandler UTIL_GetSchHandler( enum eSchHandler Ix )$/;"	f
+UTIL_GetSchHandler	ST_Code/circle_api.h	131;"	d
+UTIL_GetTemp	ST_Code/Util.c	/^u16 UTIL_GetTemp( void )$/;"	f
+UTIL_GetTemp	ST_Code/circle_api.h	132;"	d
+UTIL_GetUsb	ST_Code/Util.c	/^u8 UTIL_GetUsb( void )$/;"	f
+UTIL_GetUsb	ST_Code/circle_api.h	127;"	d
+UTIL_GetVersion	ST_Code/Util.c	/^const char* UTIL_GetVersion( void )$/;"	f
+UTIL_GetVersion	ST_Code/circle_api.h	123;"	d
+UTIL_ID	ST_Code/circle_api.h	97;"	d
+UTIL_INT2STR_ID	ST_Code/circle_api.h	104;"	d
+UTIL_READ_BACKUPREGISTER_ID	ST_Code/circle_api.h	106;"	d
+UTIL_ReadBackupRegister	ST_Code/Util.c	/^u16 UTIL_ReadBackupRegister( u16 BKP_DR )$/;"	f
+UTIL_ReadBackupRegister	ST_Code/circle_api.h	124;"	d
+UTIL_SET_IRQ_HANDLER_ID	ST_Code/circle_api.h	110;"	d
+UTIL_SET_PLL_ID	ST_Code/circle_api.h	101;"	d
+UTIL_SET_SCH_HANDLER_ID	ST_Code/circle_api.h	112;"	d
+UTIL_SET_TEMPMODE_ID	ST_Code/circle_api.h	115;"	d
+UTIL_SetIrqHandler	ST_Code/Util.c	/^void UTIL_SetIrqHandler( int Offs, tHandler pHDL )$/;"	f
+UTIL_SetIrqHandler	ST_Code/circle_api.h	128;"	d
+UTIL_SetPll	ST_Code/Util.c	/^void UTIL_SetPll( enum eSpeed speed )$/;"	f
+UTIL_SetPll	ST_Code/circle_api.h	119;"	d
+UTIL_SetSchHandler	ST_Code/Util.c	/^void UTIL_SetSchHandler( enum eSchHandler Ix, tHandler pHDL )$/;"	f
+UTIL_SetSchHandler	ST_Code/circle_api.h	130;"	d
+UTIL_SetTempMode	ST_Code/Util.c	/^void UTIL_SetTempMode ( int mode )$/;"	f
+UTIL_SetTempMode	ST_Code/circle_api.h	133;"	d
+UTIL_UINT2STR_ID	ST_Code/circle_api.h	103;"	d
+UTIL_WRITE_BACKUPREGISTER_ID	ST_Code/circle_api.h	107;"	d
+UTIL_WriteBackupRegister	ST_Code/Util.c	/^void UTIL_WriteBackupRegister( u16 BKP_DR, u16 Data )$/;"	f
+UTIL_WriteBackupRegister	ST_Code/circle_api.h	125;"	d
+UTIL_int2str	ST_Code/Util.c	/^void UTIL_int2str( char* ptr, s32 X, u16 digit, int fillwithzero )$/;"	f
+UTIL_int2str	ST_Code/circle_api.h	122;"	d
+UTIL_uint2str	ST_Code/Util.c	/^void UTIL_uint2str( char* ptr, u32 X, u16 digit, int fillwithzero )$/;"	f
+UTIL_uint2str	ST_Code/circle_api.h	121;"	d
+UsageFaultException	ST_Code/stm32f10x_circle_it.c	/^void UsageFaultException( void ) {}$/;"	f
+UsbState	ST_Code/draw.c	/^u8 UsbState,OldUsbState;$/;"	v
+V12	ST_Code/circle.h	/^    V12=0,$/;"	e	enum:__anon1
+V12	ST_Code/circle_api.h	/^   V12 = 0,                                        \/*!< No rotation.          *\/$/;"	e	enum:__anon6
+V12_MADCTRVAL	ST_Code/draw.c	20;"	d	file:
+V12_MADCTRVAL	ST_Code/lcd.c	20;"	d	file:
+V3	ST_Code/circle.h	/^    V3=1,$/;"	e	enum:__anon1
+V3	ST_Code/circle_api.h	/^   V3  = 1,                                        \/*!< Rotation to the right.*\/$/;"	e	enum:__anon6
+V3_MADCTRVAL	ST_Code/draw.c	21;"	d	file:
+V3_MADCTRVAL	ST_Code/lcd.c	21;"	d	file:
+V6	ST_Code/circle.h	/^    V6=2,$/;"	e	enum:__anon1
+V6	ST_Code/circle_api.h	/^   V6  = 2,                                        \/*!< Rotation to the left. *\/$/;"	e	enum:__anon6
+V6_MADCTRVAL	ST_Code/draw.c	22;"	d	file:
+V6_MADCTRVAL	ST_Code/lcd.c	22;"	d	file:
+V9	ST_Code/circle.h	/^    V9=3$/;"	e	enum:__anon1
+V9	ST_Code/circle_api.h	/^   V9  = 3                                         \/*!< Half a rotation.      *\/$/;"	e	enum:__anon6
+V9_MADCTRVAL	ST_Code/draw.c	19;"	d	file:
+V9_MADCTRVAL	ST_Code/lcd.c	19;"	d	file:
+VDD_VOLTAGE_MV	ST_Code/circle.h	26;"	d
+WRCTRL_REG1	ST_Code/mems.c	22;"	d	file:
+XInit	ST_Code/mems.c	/^s16 XInit      = 0;$/;"	v
+XPos	ST_Code/circle.h	/^   int XPos, YPos;$/;"	m	struct:__anon5
+XPos	ST_Code/circle_api.h	/^   int XPos;                              \/*!< X position of menu bottom-left corner. *\/$/;"	m	struct:__anon10
+XSize	ST_Code/circle.h	/^   int XSize, YSize;$/;"	m	struct:__anon5
+XSize	ST_Code/circle_api.h	/^   int XSize;                             \/*!< Unused.                        *\/$/;"	m	struct:__anon10
+X_PosMax	ST_Code/circle.h	/^   s16 X_PosMax ;$/;"	m	struct:__anon3
+X_PosMax	ST_Code/circle_api.h	/^   s16 X_PosMax;                          \/*!< Maximum position on X axis.    *\/$/;"	m	struct:__anon8
+X_PosMin	ST_Code/circle.h	/^   s16 X_PosMin ;$/;"	m	struct:__anon3
+X_PosMin	ST_Code/circle_api.h	/^   s16 X_PosMin;                          \/*!< Minimum position on X axis.    *\/$/;"	m	struct:__anon8
+YInit	ST_Code/mems.c	/^s16 YInit      = 0;$/;"	v
+YPos	ST_Code/circle.h	/^   int XPos, YPos;$/;"	m	struct:__anon5
+YPos	ST_Code/circle_api.h	/^   int YPos;                              \/*!< Y position of menu bottom-left corner. *\/$/;"	m	struct:__anon10
+YSize	ST_Code/circle.h	/^   int XSize, YSize;$/;"	m	struct:__anon5
+YSize	ST_Code/circle_api.h	/^   int YSize;                             \/*!< Unused.                        *\/$/;"	m	struct:__anon10
+Y_PosMax	ST_Code/circle.h	/^   s16 Y_PosMax ;$/;"	m	struct:__anon3
+Y_PosMax	ST_Code/circle_api.h	/^   s16 Y_PosMax;                          \/*!< Maximum position on Y axis.    *\/$/;"	m	struct:__anon8
+Y_PosMin	ST_Code/circle.h	/^   s16 Y_PosMin ;$/;"	m	struct:__anon3
+Y_PosMin	ST_Code/circle_api.h	/^   s16 Y_PosMin;                          \/*!< Minimum position on Y axis.    *\/$/;"	m	struct:__anon8
+ZInit	ST_Code/mems.c	/^s16 ZInit      = 0;$/;"	v
+_ADC1	ST_Code/stm32f10x_conf.h	32;"	d
+_ADC2	ST_Code/stm32f10x_conf.h	33;"	d
+_AFIO	ST_Code/stm32f10x_conf.h	58;"	d
+_DMA_Channel1	ST_Code/stm32f10x_conf.h	40;"	d
+_DMA_Channel2	ST_Code/stm32f10x_conf.h	41;"	d
+_DMA_Channel3	ST_Code/stm32f10x_conf.h	42;"	d
+_DMA_Channel4	ST_Code/stm32f10x_conf.h	43;"	d
+_DMA_Channel5	ST_Code/stm32f10x_conf.h	44;"	d
+_DMA_Channel6	ST_Code/stm32f10x_conf.h	45;"	d
+_DMA_Channel7	ST_Code/stm32f10x_conf.h	46;"	d
+_GPIO	ST_Code/stm32f10x_conf.h	52;"	d
+_GPIOA	ST_Code/stm32f10x_conf.h	53;"	d
+_GPIOB	ST_Code/stm32f10x_conf.h	54;"	d
+_GPIOC	ST_Code/stm32f10x_conf.h	55;"	d
+_GPIOD	ST_Code/stm32f10x_conf.h	56;"	d
+_NVIC	ST_Code/stm32f10x_conf.h	69;"	d
+_RCC	ST_Code/stm32f10x_conf.h	79;"	d
+_SCB	ST_Code/stm32f10x_conf.h	70;"	d
+_SPI	ST_Code/stm32f10x_conf.h	85;"	d
+_SPI2	ST_Code/stm32f10x_conf.h	87;"	d
+_SysTick	ST_Code/stm32f10x_conf.h	90;"	d
+_TIM	ST_Code/stm32f10x_conf.h	96;"	d
+_TIM2	ST_Code/stm32f10x_conf.h	97;"	d
+_TIM3	ST_Code/stm32f10x_conf.h	98;"	d
+_TIM4	ST_Code/stm32f10x_conf.h	99;"	d
+__ADC_H	ST_Code/adc.h	14;"	d
+__CIRCLE_API_H	ST_Code/circle_api.h	31;"	d
+__CIRCLE_H	ST_Code/circle.h	22;"	d
+__LCD_H	ST_Code/lcd.h	14;"	d
+__STM32F10x_CONF_H	ST_Code/stm32f10x_conf.h	21;"	d
+__STM32F10x_IT_H	ST_Code/scheduler.h	15;"	d
+__STM32F10x_IT_H	ST_Code/stm32f10x_it.h	11;"	d
+_close_r	syscalls.c	/^int _close_r (struct _reent *r, int file)$/;"	f
+_fstat_r	syscalls.c	/^int _fstat_r (struct _reent *r, int file, struct stat * st)$/;"	f
+_int2str	ST_Code/Util.c	/^static void _int2str( char* ptr, s32 X, u16 digit, int flagunsigned, int fillwithzero )$/;"	f	file:
+_isatty_r	syscalls.c	/^int _isatty_r(struct _reent *r, int fd)$/;"	f
+_lseek_r	syscalls.c	/^int _lseek_r (struct _reent *r, int file, int ptr, int dir)$/;"	f
+_read_r	syscalls.c	/^int _read_r (struct _reent *r, int file, char * ptr, int len)$/;"	f
+_sbrk_r	syscalls.c	/^caddr_t _sbrk_r (struct _reent *r, int incr)$/;"	f
+_write_r	syscalls.c	/^int _write_r (struct _reent *r, int file, char * ptr, int len)$/;"	f
+abs	ST_Code/draw.c	479;"	d	file:
+bmpBITMAP_HEIGHT	bitmap.h	3388;"	d
+bmpBITMAP_WIDTH	bitmap.h	3387;"	d
+buzz_counter	ST_Code/buzzer.c	/^int                              buzz_counter         = 0;$/;"	v
+buzz_in_progress	ST_Code/buzzer.c	/^int                              buzz_in_progress     = 0;$/;"	v
+configCPU_CLOCK_HZ	FreeRTOSConfig.h	87;"	d
+configIDLE_SHOULD_YIELD	FreeRTOSConfig.h	95;"	d
+configKERNEL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	115;"	d
+configLCD_TASK_STACK_SIZE	main.c	161;"	d	file:
+configLIBRARY_KERNEL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	125;"	d
+configMAX_CO_ROUTINE_PRIORITIES	FreeRTOSConfig.h	100;"	d
+configMAX_PRIORITIES	FreeRTOSConfig.h	89;"	d
+configMAX_SYSCALL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	118;"	d
+configMAX_TASK_NAME_LEN	FreeRTOSConfig.h	92;"	d
+configMINIMAL_STACK_SIZE	FreeRTOSConfig.h	90;"	d
+configTICK_RATE_HZ	FreeRTOSConfig.h	88;"	d
+configTOTAL_HEAP_SIZE	FreeRTOSConfig.h	91;"	d
+configUSE_16_BIT_TICKS	FreeRTOSConfig.h	94;"	d
+configUSE_CO_ROUTINES	FreeRTOSConfig.h	99;"	d
+configUSE_IDLE_HOOK	FreeRTOSConfig.h	85;"	d
+configUSE_MUTEXES	FreeRTOSConfig.h	96;"	d
+configUSE_PREEMPTION	FreeRTOSConfig.h	84;"	d
+configUSE_TICK_HOOK	FreeRTOSConfig.h	86;"	d
+configUSE_TRACE_FACILITY	FreeRTOSConfig.h	93;"	d
+delay_unit	ST_Code/Util.c	/^void delay_unit( void )$/;"	f
+divider	ST_Code/mems.c	/^static int                          divider                          = 0;$/;"	v	file:
+divider	ST_Code/pointer.c	/^static int           divider                          = 0;$/;"	v	file:
+divider_coord	ST_Code/draw.c	/^static int divider_coord = 0;$/;"	v	file:
+dummy_var	ST_Code/circle.h	/^   } dummy_var ; \/\/for doxygen$/;"	v	typeref:enum:eSchHandler
+dummycounter	ST_Code/Util.c	/^int                  dummycounter   = 0;$/;"	v
+eNotes	ST_Code/buzzer.c	/^enum eNotes  {$/;"	g	file:
+eOctave	ST_Code/buzzer.c	/^enum eOctave  {$/;"	g	file:
+eSchHandler	ST_Code/circle.h	/^enum eSchHandler$/;"	g
+eSchHandler	ST_Code/circle_api.h	/^enum eSchHandler$/;"	g
+eSpeed	ST_Code/circle.h	/^extern enum eSpeed$/;"	g
+eSpeed	ST_Code/circle_api.h	/^extern enum eSpeed$/;"	g
+fDisplayTime	ST_Code/draw.c	/^int fDisplayTime = 0;$/;"	v
+fMenuFlag	ST_Code/circle.h	/^   int fMenuFlag;$/;"	m	struct:__anon4
+fMovePtrX	ST_Code/mems.c	/^int fMovePtrX; $/;"	v
+fMovePtrY	ST_Code/mems.c	/^int fMovePtrY;$/;"	v
+fMovePtrZ	ST_Code/mems.c	/^int fMovePtrZ;$/;"	v
+fRemoveMenu	ST_Code/circle_api.h	/^   int fRemoveMenu;                             \/*!<  Flag to know if remove menu at end  *\/$/;"	m	struct:__anon9
+fTemperatureInFahrenheit	ST_Code/Util.c	/^u8                   fTemperatureInFahrenheit = 0;  \/*!< 1 : Fahrenheit, 0 : Celcius (default). *\/$/;"	v
+fdispTitle	ST_Code/circle.h	/^   unsigned fdispTitle : 1;$/;"	m	struct:__anon5
+fdispTitle	ST_Code/circle_api.h	/^   unsigned fdispTitle: 1;                \/*!< Display title is set.          *\/$/;"	m	struct:__anon10
+g_pfnVectors	ST_Code/crt0_STM32x.c	/^void (* const g_pfnVectors[])(void) =$/;"	v
+heightBat	ST_Code/draw.c	/^u16 heightBat;$/;"	v
+iMovePtrX	ST_Code/mems.c	/^int iMovePtrX;$/;"	v
+iMovePtrY	ST_Code/mems.c	/^int iMovePtrY;$/;"	v
+iMovePtrZ	ST_Code/mems.c	/^int iMovePtrZ;$/;"	v
+locbuf	ST_Code/pointer.c	/^unsigned char        locbuf[ POINTER_WIDTH ];$/;"	v
+main	main.c	/^int main( void )$/;"	f
+main	printf-stdarg.c	/^int main(void)$/;"	f
+mainBITMAP_X	main.c	143;"	d	file:
+mainBITMAP_Y	main.c	142;"	d	file:
+mainBLOCK_Q_PRIORITY	main.c	137;"	d	file:
+mainCHECK_DELAY	main.c	167;"	d	file:
+mainCHECK_TASK_PRIORITY	main.c	136;"	d	file:
+mainCHECK_TASK_STACK_SIZE	main.c	157;"	d	file:
+mainFLASH_DELAY	main.c	173;"	d	file:
+mainFLASH_TASK_PRIORITY	main.c	139;"	d	file:
+mainGEN_Q_PRIORITY	main.c	138;"	d	file:
+mainINCLUDE_BITMAP	main.c	128;"	d	file:
+mainLCD_CHAR_HEIGHT	main.c	149;"	d	file:
+mainLCD_MAX_Y	main.c	150;"	d	file:
+mainLCD_QUEUE_SIZE	main.c	154;"	d	file:
+mainMAX_MSG_LEN	main.c	164;"	d	file:
+mainMEMS_DELAY	main.c	170;"	d	file:
+mainNS_PER_CLOCK	main.c	176;"	d	file:
+mainQUEUE_POLL_PRIORITY	main.c	135;"	d	file:
+mainSPLASH_SCREEN_DELAY	main.c	146;"	d	file:
+mainUPDATE_BALL_MESSAGE	main.c	179;"	d	file:
+mainURL_X	main.c	145;"	d	file:
+mainURL_Y	main.c	144;"	d	file:
+mainWRITE_STRING_MESSAGE	main.c	180;"	d	file:
+note	ST_Code/buzzer.c	/^      } note;$/;"	v	typeref:enum:eNotes
+octave	ST_Code/buzzer.c	/^      } octave;$/;"	v	typeref:enum:eOctave
+partstFIRST_LED	ParTest/ParTest.c	76;"	d	file:
+partstMAX_OUTPUT_LED	ParTest/ParTest.c	75;"	d	file:
+pcMessage	main.c	/^	signed char *pcMessage;$/;"	m	struct:__anon12	file:
+previous_H12	ST_Code/draw.c	/^Rotate_H12_V_Match_TypeDef previous_H12               = V9;$/;"	v
+previous_Screen_Orientation	ST_Code/mems.c	/^static Rotate_H12_V_Match_TypeDef   previous_Screen_Orientation;$/;"	v	file:
+previous_previous_H12	ST_Code/draw.c	/^Rotate_H12_V_Match_TypeDef previous_previous_H12      = V9;$/;"	v
+print	printf-stdarg.c	/^static int print( char **out, const char *format, va_list args )$/;"	f	file:
+printchar	printf-stdarg.c	/^static void printchar(char **str, int c)$/;"	f	file:
+printf	printf-stdarg.c	/^int printf(const char *format, ...)$/;"	f
+printi	printf-stdarg.c	/^static int printi(char **out, int i, int b, int sg, int width, int pad, int letbase)$/;"	f	file:
+prints	printf-stdarg.c	/^static int prints(char **out, const char *string, int width, int pad)$/;"	f	file:
+prvCheckTask	main.c	/^static void prvCheckTask( void *pvParameters )$/;"	f	file:
+prvFlashTask	main.c	/^static void prvFlashTask( void *pvParameters )$/;"	f	file:
+prvLCDTask	main.c	/^void prvLCDTask( void *pvParameters )$/;"	f
+prvSetupHardware	main.c	/^static void prvSetupHardware( void )$/;"	f	file:
+ptrAreaStore	ST_Code/pointer.c	/^unsigned char*       ptrAreaStore                     = DefaultAreaStore;$/;"	v
+pucImage	bitmap.h	/^const unsigned short pucImage[] =$/;"	v
+rotate_counter	ST_Code/draw.c	/^int                        rotate_counter             = 0;$/;"	v
+sgn	ST_Code/draw.c	480;"	d	file:
+shift_PosX	ST_Code/circle.h	/^   s16 shift_PosX ;$/;"	m	struct:__anon3
+shift_PosX	ST_Code/circle_api.h	/^   s16 shift_PosX;                        \/*!< Pointer speed on X axis.       *\/$/;"	m	struct:__anon8
+shift_PosY	ST_Code/circle.h	/^   s16 shift_PosY ;$/;"	m	struct:__anon3
+shift_PosY	ST_Code/circle_api.h	/^   s16 shift_PosY;                        \/*!< Pointer speed on Y axis        *\/$/;"	m	struct:__anon8
+snprintf	printf-stdarg.c	/^int snprintf( char *buf, unsigned int count, const char *format, ... )$/;"	f
+sprintf	printf-stdarg.c	/^int sprintf(char *out, const char *format, ...)$/;"	f
+starting_delay	main.c	/^void starting_delay( unsigned long ul )$/;"	f
+tAppPtrMgr	ST_Code/circle.h	/^typedef void  (*tAppPtrMgr) ( int , int );$/;"	t
+tAppPtrMgr	ST_Code/circle_api.h	/^typedef void  (*tAppPtrMgr) ( int , int );$/;"	t
+tCircleFunc0	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc0 ) (void);$/;"	t
+tCircleFunc1	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc1 ) (u32 param1);$/;"	t
+tCircleFunc2	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc2 ) (u32 param1, u32 param2);$/;"	t
+tCircleFunc3	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc3 ) (u32 param1, u32 param2, u32 param3);$/;"	t
+tCircleFunc4	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc4 ) (u32 param1, u32 param2, u32 param3, u32 param4);$/;"	t
+tCircleFunc5	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc5 ) (u32 param1, u32 param2, u32 param3, u32 param4, u32 param5);$/;"	t
+tCircleFunc6	ST_Code/circle_api.h	/^typedef u32 (*tCircleFunc6 ) (u32 param1, u32 param2, u32 param3, u32 param4, u32 param5, u32 param6);$/;"	t
+tHandler	ST_Code/circle_api.h	/^typedef void (*tHandler) (void);$/;"	t
+tHandler	ST_Code/scheduler.h	/^typedef void  (*tHandler)    ( void );$/;"	t
+tMEMS_Info	ST_Code/circle.h	/^   } tMEMS_Info;$/;"	t	typeref:struct:__anon2
+tMEMS_Info	ST_Code/circle_api.h	/^   } tMEMS_Info;$/;"	t	typeref:struct:__anon7
+tMenu	ST_Code/circle.h	/^   } tMenu;$/;"	t	typeref:struct:__anon5
+tMenu	ST_Code/circle_api.h	/^   } tMenu;$/;"	t	typeref:struct:__anon10
+tMenuItem	ST_Code/circle.h	/^   } tMenuItem;$/;"	t	typeref:struct:__anon4
+tMenuItem	ST_Code/circle_api.h	/^   } tMenuItem;$/;"	t	typeref:struct:__anon9
+tMovePtrX	ST_Code/mems.c	/^int tMovePtrX;$/;"	v
+tMovePtrY	ST_Code/mems.c	/^int tMovePtrY;$/;"	v
+tMovePtrZ	ST_Code/mems.c	/^int tMovePtrZ;$/;"	v
+tPointer_Info	ST_Code/circle.h	/^   } tPointer_Info;$/;"	t	typeref:struct:__anon3
+tPointer_Info	ST_Code/circle_api.h	/^   } tPointer_Info;$/;"	t	typeref:struct:__anon8
+timerEXPECTED_DIFFERENCE_VALUE	timertest.c	82;"	d	file:
+timerHIGHEST_PRIORITY	timertest.c	85;"	d	file:
+timerINTERRUPT_FREQUENCY	timertest.c	78;"	d	file:
+timerMAX_32BIT_VALUE	timertest.c	88;"	d	file:
+timerSETTLE_TIME	timertest.c	92;"	d	file:
+timerTIMER_1_COUNT_VALUE	timertest.c	89;"	d	file:
+usMaxJitter	timertest.c	/^volatile unsigned short usMaxJitter = 0;$/;"	v
+usOutputValue	ParTest/ParTest.c	/^static unsigned short usOutputValue = 0;$/;"	v	file:
+vApplicationTickHook	main.c	/^void vApplicationTickHook( void )$/;"	f
+vParTestInitialise	ParTest/ParTest.c	/^void vParTestInitialise( void )$/;"	f
+vParTestSetLED	ParTest/ParTest.c	/^void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )$/;"	f
+vParTestToggleLED	ParTest/ParTest.c	/^void vParTestToggleLED( unsigned portBASE_TYPE uxLED )$/;"	f
+vSetupTimerTest	timertest.c	/^void vSetupTimerTest( void )$/;"	f
+vTimer2IntHandler	timertest.c	/^void vTimer2IntHandler( void )$/;"	f
+vbattoa	ST_Code/draw.c	/^static void vbattoa( char* ptr, u16 X )$/;"	f	file:
+widthBat	ST_Code/draw.c	/^u16 widthBat;$/;"	v
+xBat	ST_Code/draw.c	/^u16 xBat;$/;"	v
+xLCDMessage	main.c	/^} xLCDMessage;$/;"	t	typeref:struct:__anon12	file:
+xLCDQueue	main.c	/^QueueHandle_t xLCDQueue;$/;"	v
+xMessageType	main.c	/^	portBASE_TYPE xMessageType;$/;"	m	struct:__anon12	file:
+xPos	ST_Code/circle.h	/^   s16 xPos ;$/;"	m	struct:__anon3
+xPos	ST_Code/circle_api.h	/^   s16 xPos;                              \/*!< X position of pointer.         *\/$/;"	m	struct:__anon8
+yBat	ST_Code/draw.c	/^u16 yBat;$/;"	v
+yPos	ST_Code/circle.h	/^   s16 yPos ;$/;"	m	struct:__anon3
+yPos	ST_Code/circle_api.h	/^   s16 yPos;                              \/*!< Y position of pointer.         *\/$/;"	m	struct:__anon8
