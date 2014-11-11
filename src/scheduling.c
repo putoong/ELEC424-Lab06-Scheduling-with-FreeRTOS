@@ -5,7 +5,6 @@
 
 MotorSpeeds MS = {.m1 = 0, .m2 = 0, .m3 = 0, .m4 = 0};
 SemaphoreHandle_t semaphore;
-uint16_t 
 
 void ChangeMotorSpeed(MotorSpeeds* p_motorSpeedsPtr)
 {
@@ -75,6 +74,25 @@ void task4(void *pvParameters){
 	}
 }
 
+void leds(void *pvParameters){
+	TickType_t xTimer;
+	const TickType_t xFeq = 500;
+	xTimer = xTaskGetTickCount();
+	while (1) {
+		vTaskDelayUntil(&xTimer, xFeq);
+		counter ++ ;
+		if (counter == 20) {
+			GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable,ENABLE);
+		} else if (counter == 30) {
+			GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable,DISABLE);		
+		}
+		LED_green_toggle();
+		if (counter % 2) {
+			LED_red_toggle();
+		}
+	}
+}
+
 void vApplicationIdleHook( void ){
 	while (1) {
 		logDebugInfo();
@@ -87,8 +105,8 @@ void main (void){
 	init_system_clk();
 	init_blink();
 	init_motors();
- 	init_TIM2();
- 	
+ 	//init_TIM2();
+ 	counter = 0;
 
 	semaphore = xSemaphoreCreateBinary();
 	//xSemaphoreTake( semaphore ,( TickType_t ) 10  );
@@ -98,7 +116,7 @@ void main (void){
  					"task1",
  					200,
  					NULL,
- 					1,
+ 					4,
  					NULL
  					);
 
@@ -106,7 +124,7 @@ void main (void){
  					"task2",
  					200,
  					NULL,
- 					2,
+ 					3,
  					NULL
  					);
 
@@ -114,7 +132,7 @@ void main (void){
  					"task3",
  					200,
  					NULL,
- 					3,
+ 					2,
  					NULL
  					);
 
@@ -122,10 +140,18 @@ void main (void){
  					"task4",
  					200,
  					NULL,
- 					4,
+ 					1,
  					NULL
  					);
 
+	xTaskCreate(	leds,
+					"leds",
+					200,
+					NULL,
+					0,
+					NULL
+					);
+	
  	vTaskStartScheduler();
 
 	while (1) {

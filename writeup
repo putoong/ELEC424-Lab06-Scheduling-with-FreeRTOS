@@ -1,28 +1,31 @@
 Lab05: Scheduling with FreeRTOS
-<PUT NAMES HERE>
+<Kai, Pu>
 
 Part 1:
 
 Q1: What is the difference between semaphore and mutex?
+Answer : Semaphore is an integer to describe how many times the system resource can still be used by processes at the same time. Mutex is a binary number to indecate if the resource can be used by processes right now. Semaphore works in a "producer - consumer" mode where producers add one to semaphore and consumers subtract one to semaphore. Mutex works differently, only the thread that takes the mutex can release it. 
 
 Q2: What FreeRTOS uses to represent a task? Compared to what you used in Lab05 
 to represent a task, what features they share and what are the major differences?
+Answer : FreeRTOS uses tskTaskControlBlock (old name) and TCB_t (new name) to represent one task. Compared to what we create in lab05, they share the same pointer to the stack top. Other than that, TCB_t keeps a list of its state (running, waiting, etc) and also it stores its priority. In lab05 our case, we did not take priority into consideration.
 
 Part 2:
 
 Q3: What is the frequency of the system tick used in your code? What are the 
 highest and lowest system tick frequencies to get your Lab06 to work?
+Answer : It is 1000 Hz. The highest frequency is 1700 Hz and the lowest is 100 Hz.
 
 Q4: There is also (obviously) a context switching implementation in FreeRTOS 
 source code for Cortex-M3, find the code and list the technical differences 
 from your context switching code in Lab05.
-
+Answer : The code for context switch is in port.c, function xPortPendSVHandler(). The first difference is that in our context switcher, we do not have priority and taskA and taskB switch back and forth. But in his switcher, within the function vTaskSwitchContext, it determines the next task with the highest priority that needs to be shifted in. The second difference is it takes care of stack overflow but we did not. 
 
 Contribution
 
 Indicate the percentage work contributed by each partner below (should add up 
 to 100%). Needless to say, replace PARTNER1/2 with names.
 
-<PARTNER1>:
-<PARTNER2>:
+<PARTNER1>: Kai Zhang 50%
+<PARTNER2>: Pu Dong 50%
 

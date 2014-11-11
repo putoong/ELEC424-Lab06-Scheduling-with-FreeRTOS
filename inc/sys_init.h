@@ -14,8 +14,6 @@ TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure2;
 #define LED_GPIO_PORT                   GPIOB
 #define LED_GPIO_CLK                    RCC_APB2Periph_GPIOB  
 
-static int counter;
-
 void LED_green_toggle(void);
 void LED_red_toggle(void);
 /*

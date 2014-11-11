@@ -43,12 +43,11 @@ void init_system_clk(void){
 
 
   SCB->VTOR = FLASH_BASE ; /* Vector Table Relocation in Internal FLASH. */
-
+/*
   if (SysTick_Config(SystemCoreClock / 10)) {
     while (1);
   }
-  counter = 0;
-
+*/
 }
 
 void SetSysClockTo72(void)
@@ -277,7 +276,7 @@ void LED_red_toggle(void)
 {
     LED_GPIO_PORT->ODR ^= GPIO_Pin_4;
 }
-
+/*
 void TIM2_IRQHandler(void) {
 
 
@@ -290,4 +289,4 @@ void TIM2_IRQHandler(void) {
     Counter ++;
 
     TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update); 
-}
+}*/
